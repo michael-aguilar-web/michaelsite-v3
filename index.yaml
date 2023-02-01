@@ -3,6 +3,7 @@
 
 page:
   siteTitle: broccosite
+  siteName: broccosite-v3
 
 template:
   theme: green
