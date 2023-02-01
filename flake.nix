@@ -22,7 +22,7 @@
             layers = [ ./. ];
             layersString = [ "." ];
             # port = 8080;
-            baseUrl = "/emanote-template/"; # Change to "/" (or remove it entirely) if using CNAME
+            baseUrl = "/broccosite-v3/"; # Change to "/" (or remove it entirely) if using CNAME
             # prettyUrls = true;
           };
         };
