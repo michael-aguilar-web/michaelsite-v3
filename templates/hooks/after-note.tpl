@@ -1,3 +1,16 @@
+<style>
+  .frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 128px;
+  }
+
+  img {
+    text-align: center;
+    vertical-align: middle;
+  }
+</style>
 <div class="flex items-center justify-center mt-2">
   <ema:metadata>
     <with var="template">
@@ -8,4 +21,10 @@
       </a>
     </with>
   </ema:metadata>
+</div>
+<hr class="m-2">
+<div class="frame">
+  <div>
+    <img src="/images/broccocolon3.png" width="128" height="128" alt="broccocolon3">
+  </div>
 </div>

@@ -7,6 +7,7 @@ page:
 
 template:
   theme: green
+  iconUrl: /broccoicon.png
 
   # You can add your own variables here, like editBaseUrl.
   # See after-note.tpl to see where editBaseUrl gets used.
@@ -19,7 +20,7 @@ template:
   #     containerClass: container mx-auto max-w-screen-lg
 
   sidebar:
-    collapsed: false
+    collapsed: true
 
   # If you are hosting on GitLab Pages, you may want to remove this.
   # urlStrategy: pretty
