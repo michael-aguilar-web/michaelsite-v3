@@ -8,19 +8,6 @@ page:
 template:
   theme: green
   iconUrl: /broccoicon.png
-
-  # You can add your own variables here, like editBaseUrl.
-  # See after-note.tpl to see where editBaseUrl gets used.
-  # baseUrl: /broccosite-v3/
-
-  # Uncomment this to get neuron-style pages
-  # name: /templates/layouts/note
-  # layout:
-  #   note:
-  #     containerClass: container mx-auto max-w-screen-lg
-
+  urlStrategy: pretty
   sidebar:
     collapsed: true
-
-  # If you are hosting on GitLab Pages, you may want to remove this.
-  # urlStrategy: pretty

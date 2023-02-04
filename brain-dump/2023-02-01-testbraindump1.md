@@ -1,10 +1,9 @@
 ---
-date: "2023-05-30"
+date: "2023-02-30"
 slug: brain-dump/testbraindump
-tags: [testing tags]
+tags: [testing tags, testing more tags]
 ---
 
 # test brain dump
 
-here i will put all my formatting tests
-
+asdfjkl
