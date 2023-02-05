@@ -9,7 +9,7 @@
   </title>
   
     
-      <meta property='og:description' content='this is a test page for broccosite v3 (site is under construction)' />
+      <meta property='og:description' content='hi, i’m BroccoliBroccoli' />
       <meta property='og:site_name' content='broccosite' />
       <meta property='og:image' content />
       <meta property='og:type' content='website' />
@@ -19,10 +19,18 @@
       <base href='/' />
       <link href='/broccoicon.png' rel='icon' />
     
-    <meta name='generator' content='Emanote' />
+    <!-- highlight.js -->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/hybrid.min.css' />
+<script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js'></script>
+<!-- Include languages that Emanote itself uses -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/haskell.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/nix.min.js'></script>
+<script>hljs.highlightAll();</script>
+
+
 
   
-  <link href='tailwind.css?instanceId=c75f19a7-f955-4677-88f3-596fba768804' rel='stylesheet' type='text/css' />
+  <link href='tailwind.css?instanceId=3d5c32da-a4ae-4ed9-9e2f-85c42f48c090' rel='stylesheet' type='text/css' />
 
   <style>
     /* Heist error element */
@@ -72,53 +80,48 @@
         </svg>');
     }
   </style>
-  <!-- What goes in this file will appear on near the end of <head>--><link rel='preload' href='_emanote-static/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf' as='font' type='font/ttf' crossorigin />
+  <link rel='preconnect' href='https://fonts.googleapis.com' />
+<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+<link href='https://fonts.googleapis.com/css2?family=Poppins&amp;family=Quicksand&amp;display=swap' rel='stylesheet' />
 
 <style>
-  @font-face {
-    font-family: 'WorkSans';
-    /* FIXME: This ought to be: ${ema:emanoteStaticLayerUrl}/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf */
-    src: url(_emanote-static/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf) format("truetype");
-    font-display: swap;
-  }
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-variation-settings: 'wght' 350;
+    }
 
-  body {
-    font-family: 'WorkSans', sans-serif;
-    font-variation-settings: 'wght' 350;
-  }
+    a.mavenLinkBold {
+        font-variation-settings: 'wght' 400;
+    }
 
-  a.mavenLinkBold {
-    font-variation-settings: 'wght' 400;
-  }
+    strong {
+        font-variation-settings: 'wght' 500;
+    }
 
-  strong {
-    font-variation-settings: 'wght' 500;
-  }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    header,
+    .header-font {
+        font-family: 'Poppins', sans-serif;
+    }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  header,
-  .header-font {
-    font-family: 'WorkSans', sans-serif;
-  }
+    h1 {
+        font-family: "Quicksand", sans-serif;
+        font-variation-settings: 'wght' 400;
+    }
 
-  h1 {
-    font-variation-settings: 'wght' 500;
-  }
+    h2 {
+        font-variation-settings: 'wght' 400;
+    }
 
-  h2 {
-    font-variation-settings: 'wght' 400;
-  }
-
-  h3 {
-    font-variation-settings: 'wght' 300;
-  }
+    h3 {
+        font-variation-settings: 'wght' 300;
+    }
 </style>
-
 
   
   <link rel='stylesheet' href='_emanote-static/stork/flat.css' />
@@ -400,13 +403,72 @@
 </h1>
             <article class='overflow-auto'>
   <!-- What goes in this file will appear on top of note body-->
-  
+  <div xmlhtmlRaw><style>
+    a[data-linkicon="external"]::after {
+      content: none;
+    }
+</style>
+</div>
     <p class='mb-3'>
-      this is a test page for broccosite v3 (site is under construction)
+      hi, i’m <a href='about' class='text-green-600 mavenLinkBold hover:underline' data-wikilink-type='WikiLinkNormal'>Broccoli</a>
     </p>
   
     <p class='mb-3'>
-      <a href='https://twitter.com/Broccoccoccoli' class='text-green-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>my twitter</a>
+      welcome to my personal site 🙂
+    </p>
+  
+    <p class='mb-3'>
+      here’s some links to my stuff:
+    </p>
+  
+    <hr class='mb-3' />
+  <div xmlhtmlRaw><center><img src="/images/broccoflush.png"></center>
+&nbsp;
+</div><div class='frontbox1'>
+    <p class='mb-3'>
+      <a href='https://twitter.com/Broccoccoccoli' class='h-20 p-4 border-4 bg-white rounded-md flex items-center justify-center text-center text-2xl font-extrabold hover:bg-gray-300 hover:border-green-600 hover:no-underline ml-8 mr-8 mu-4 md-4 text-green-600 hover:underline' data-linkicon='external' data-wikilink-type='WikiLinkNormal' target='_blank' rel='noopener'>twitter</a>
+    </p>
+  
+    <p class='mb-3'>
+      <a href='https://youtube.com/@Broccoccoccoli' class='h-20 p-4 border-4 bg-white rounded-md flex items-center justify-center text-center text-2xl font-extrabold hover:bg-gray-300 hover:border-green-600 hover:no-underline ml-8 mr-8 mu-4 md-4 text-green-600 hover:underline' data-linkicon='external' data-wikilink-type='WikiLinkNormal' target='_blank' rel='noopener'>yt</a>
+    </p>
+  
+    <p class='mb-3'>
+      <a href='https://twitch.tv/broccoligg' class='h-20 p-4 border-4 bg-white rounded-md flex items-center justify-center text-center text-2xl font-extrabold hover:bg-gray-300 hover:border-green-600 hover:no-underline ml-8 mr-8 mu-4 md-4 text-green-600 hover:underline' data-linkicon='external' data-wikilink-type='WikiLinkNormal' target='_blank' rel='noopener'>twitch</a>
+    </p>
+  </div>
+    <p class='mb-3'>
+       
+    </p>
+  
+    <hr class='mb-3' />
+  
+    <p class='mb-3'>
+       
+    </p>
+  <div class='frontbox1'>
+    <p class='mb-3'>
+      <a href='https://twitch.tv/broccoligg' class='h-10 p-4 border-4 bg-white rounded-md flex items-center justify-center text-center text-2xl font-extrabold hover:bg-gray-300 hover:border-green-600 hover:no-underline ml-8 mr-8 mu-4 md-4 text-green-600 hover:underline' data-linkicon='external' data-wikilink-type='WikiLinkNormal' target='_blank' rel='noopener'>steam</a>
+    </p>
+  
+    <p class='mb-3'>
+      <a href='https://open.spotify.com/user/broccoli_?si=6bd23e31398b4929&amp;nd=1' class='h-10 p-4 border-4 bg-white rounded-md flex items-center justify-center text-center text-2xl font-extrabold hover:bg-gray-300 hover:border-green-600 hover:no-underline ml-8 mr-8 mu-4 md-4 text-green-600 hover:underline' data-linkicon='external' data-wikilink-type='WikiLinkNormal' target='_blank' rel='noopener'>spotify</a>
+    </p>
+  
+    <p class='mb-3'>
+      <a href='https://lolchess.gg/profile/na/broccolitft' class='h-10 p-4 border-4 bg-white rounded-md flex items-center justify-center text-center text-2xl font-extrabold hover:bg-gray-300 hover:border-green-600 hover:no-underline ml-8 mr-8 mu-4 md-4 text-green-600 hover:underline' data-linkicon='external' data-wikilink-type='WikiLinkNormal' target='_blank' rel='noopener'>tft</a>
+    </p>
+  
+    <p class='mb-3'>
+      <a href='https://apexlegendsstatus.com/profile/uid/PC/2654494079' class='h-10 p-4 border-4 bg-white rounded-md flex items-center justify-center text-center text-2xl font-extrabold hover:bg-gray-300 hover:border-green-600 hover:no-underline ml-8 mr-8 mu-4 md-4 text-green-600 hover:underline' data-linkicon='external' data-wikilink-type='WikiLinkNormal' target='_blank' rel='noopener'>apex</a>
+    </p>
+  
+    <p class='mb-3'>
+      <a href='https://osu.ppy.sh/users/5870537' class='h-10 p-4 border-4 bg-white rounded-md flex items-center justify-center text-center text-2xl font-extrabold hover:bg-gray-300 hover:border-green-600 hover:no-underline ml-8 mr-8 mu-4 md-4 text-green-600 hover:underline' data-linkicon='external' data-wikilink-type='WikiLinkNormal' target='_blank' rel='noopener'>osu</a>
+    </p>
+  </div>
+    <p class='mb-3'>
+      
     </p>
   
 

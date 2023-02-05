@@ -19,10 +19,18 @@
       <base href='/' />
       <link href='/broccoicon.png' rel='icon' />
     
-    <meta name='generator' content='Emanote' />
+    <!-- highlight.js -->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/hybrid.min.css' />
+<script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js'></script>
+<!-- Include languages that Emanote itself uses -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/haskell.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/nix.min.js'></script>
+<script>hljs.highlightAll();</script>
+
+
 
   
-  <link href='tailwind.css?instanceId=c75f19a7-f955-4677-88f3-596fba768804' rel='stylesheet' type='text/css' />
+  <link href='tailwind.css?instanceId=3d5c32da-a4ae-4ed9-9e2f-85c42f48c090' rel='stylesheet' type='text/css' />
 
   <style>
     /* Heist error element */
@@ -72,53 +80,48 @@
         </svg>');
     }
   </style>
-  <!-- What goes in this file will appear on near the end of <head>--><link rel='preload' href='_emanote-static/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf' as='font' type='font/ttf' crossorigin />
+  <link rel='preconnect' href='https://fonts.googleapis.com' />
+<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+<link href='https://fonts.googleapis.com/css2?family=Poppins&amp;family=Quicksand&amp;display=swap' rel='stylesheet' />
 
 <style>
-  @font-face {
-    font-family: 'WorkSans';
-    /* FIXME: This ought to be: ${ema:emanoteStaticLayerUrl}/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf */
-    src: url(_emanote-static/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf) format("truetype");
-    font-display: swap;
-  }
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-variation-settings: 'wght' 350;
+    }
 
-  body {
-    font-family: 'WorkSans', sans-serif;
-    font-variation-settings: 'wght' 350;
-  }
+    a.mavenLinkBold {
+        font-variation-settings: 'wght' 400;
+    }
 
-  a.mavenLinkBold {
-    font-variation-settings: 'wght' 400;
-  }
+    strong {
+        font-variation-settings: 'wght' 500;
+    }
 
-  strong {
-    font-variation-settings: 'wght' 500;
-  }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    header,
+    .header-font {
+        font-family: 'Poppins', sans-serif;
+    }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  header,
-  .header-font {
-    font-family: 'WorkSans', sans-serif;
-  }
+    h1 {
+        font-family: "Quicksand", sans-serif;
+        font-variation-settings: 'wght' 400;
+    }
 
-  h1 {
-    font-variation-settings: 'wght' 500;
-  }
+    h2 {
+        font-variation-settings: 'wght' 400;
+    }
 
-  h2 {
-    font-variation-settings: 'wght' 400;
-  }
-
-  h3 {
-    font-variation-settings: 'wght' 300;
-  }
+    h3 {
+        font-variation-settings: 'wght' 300;
+    }
 </style>
-
 
   
   <link rel='stylesheet' href='_emanote-static/stork/flat.css' />
@@ -412,8 +415,8 @@
       </svg>
     
   
-    <a class='hover:underline truncate' title='test brain dump' href='brain-dump/testbraindump'>
-      test brain dump
+    <a class='hover:underline truncate' title='the n2nb productivity loop' href='brain-dump/the-n2nb-productivity-loop'>
+      the n2nb productivity loop
     </a>
     
       
@@ -450,14 +453,14 @@
       <li>
         <div class='flex flex-start items-center'>
           <div class='bg-green-700 w-4 h-4 flex items-center justify-center rounded-full -ml-2 mr-3 -mt-2'></div>
-          <a class='flex-1 text-green-700 font-semibold text-xl hover:underline -mt-2' href='brain-dump/testbraindump'>
-            test brain dump
+          <a class='flex-1 text-green-700 font-semibold text-xl hover:underline -mt-2' href='brain-dump/the-n2nb-productivity-loop'>
+            the n2nb productivity loop
           </a>
         </div>
         
           <div class='ml-6 mb-6 pb-6'>
             <span class='text-sm'>
-              2023-02-01
+              2023-02-05
             </span>
           </div>
         
