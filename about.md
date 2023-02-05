@@ -5,20 +5,23 @@ order: 1
 
 # about
 
-hello I'm Michael aka Broccoli - I was previously a full-time degenerate sweaty gamer, but now I am a full-time mechanical engineer (GaTech 22') and part-time gamer among many other things. I like doing things that get the brain juices flowing 🙂
+hello I'm Michael aka Broccoli - I was previously a full-time degenerate sweaty gamer, but now I am a full-time mechanical engineer (GaTech 22') 
+
+
+I like doing things that get the brain juices flowing 🙂
 
 
 *discord: Broccoli\#6139*
 
 
-## things i currently spend my free time on
+## things I currently spend my free time on
 *ordered by avg time spent per week*
 - frc mentoring
 - going to the gym to channel my inner caveman
 - ---[^1] <!--wb-->
 - ---[^1] <!--at-->
 - games
-    - slowly learning chess so by the time i hit the retirement home i'll be the best one there
+    - slowly learning chess so by the time I hit the retirement home I'll be the best one there
     - riot mmo whenever that comes out
     - no other games because they all suck currently
 - ???
