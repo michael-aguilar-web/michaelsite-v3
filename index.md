@@ -5,7 +5,7 @@
     }
 </style>
 
-hi, i'm [[about|Broccoli]]
+hi, I'm [[about|Broccoli]]
 
 welcome to my personal site 🙂
 
