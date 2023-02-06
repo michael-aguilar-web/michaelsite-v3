@@ -6,6 +6,8 @@ page:
   siteName: broccosite
   headHtml: |
     <snippet var="js.highlightjs" />
+  bodyHtml: |
+    <snippet var="js.mermaid" />
 
 template:
   theme: green
@@ -13,3 +15,6 @@ template:
   urlStrategy: pretty
   sidebar:
     collapsed: true
+
+emanote:
+  folder-folgezettel: true;

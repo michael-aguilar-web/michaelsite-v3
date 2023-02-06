@@ -5,7 +5,7 @@ order: 1
 
 # about
 
-hello I'm Michael aka Broccoli - I was previously a full-time degenerate sweaty gamer, but now I am a full-time mechanical engineer (GaTech 22') 
+hello I'm Michael, aka Broccoli - I was previously a full-time degenerate sweaty gamer, but now I am a full-time mechanical engineer (GaTech 22') 
 
 
 I like doing things that get the brain juices flowing 🙂
@@ -15,7 +15,7 @@ I like doing things that get the brain juices flowing 🙂
 
 
 ## things I currently spend my free time on
-*ordered by avg time spent per week*
+*ordered by avg time spent per week, high to low*
 - frc mentoring
 - going to the gym to channel my inner caveman
 - ---[^1] <!--wb-->
@@ -35,5 +35,5 @@ I like doing things that get the brain juices flowing 🙂
 - [league of legends diamond 3 season 9](https://www.op.gg/summoners/na/Broccoli%20TFT)
 
 
-[^1]: see [[2023-02-05-the-n2nb-productivity-loop|this post]] for more information
+[^1]: see [[2023-02-05-the-n2nbl-strategy|this post]] for more information
 [^2]: soloqueue only
