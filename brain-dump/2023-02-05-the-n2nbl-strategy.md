@@ -91,23 +91,24 @@ graph TD;
     G-- eventually -->I("project complete :)")
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this loop is build upon assumption \#4:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this loop is built upon assumption \#4:
 
 > assumption \#4: you are only going to do something if that matters to you, if you don't feel like doing it then it simply does not matter to you. This baseline of what **actually matters** is completely different depending on the person
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the main idea here is that you kinda have to do some testing to find that personal baseline of what **actually matters**. For example, if I wanted to pick up something like basket weaving because it seemed interesting at the time, but I don't actually put a plan in motion to pursue basket weaving, then basket weaving is simply something that doesn't actually matter to me. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in my experience, you can try to shift your perspective of what matters to you, but you'll only be able to get so far. If anything, the "what matters" baseline is probably defined by something like [maslow's needs heirarchy](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs) which could explain why it is not as simple as thinking about it differently.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;in my experience, you can try to shift your perspective of what matters to you, but you'll only be able to get so far. If anything, the "what matters" baseline is probably defined by something like [maslow's heirarchy of needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs) which could explain why it is not as simple as thinking about it differently.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to summarize, I think the key to being more productive is to go through this n2nb-loop as many times as possible, and eventually you will find something that sticks (assumption \#1). My issue with the first loop diagram is that extrinsic motivation is only good in moderation, and these outside factors can often result in you working on something longer than you should. After all, time is a very valuable resource 🙂
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to summarize, I think the key to being more productive is to go through this n2nb-loop as many times as possible, and eventually you will find something that sticks *(assumption \#1)*. My issue with the first loop diagram is that extrinsic motivation is only good in moderation, and these outside factors can often result in you working on something longer than you should. After all, time is a very valuable resource 🙂
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;there are a few additional things that I think are important to note about this strategy:
 - not every project can benefit from this strategy, some are inherently social
   - for example, playing a competitive team game with other people can push you to do better and keep up with everyone else's rate of improvement
 - I dunno if this is actually effective yet I just came up with it one afternoon
   - (but I will eventually make an update)
-- I also might just be dumb and my assumptions are completely off base from other people's experiences
+- my assumptions could just be completely off base from other people's experiences
+- I also might just be dumb and brain damaged
 
 but yea if you read this far then thanks for your time, lmk what you think
