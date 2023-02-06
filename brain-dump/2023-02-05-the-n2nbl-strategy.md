@@ -110,4 +110,4 @@ graph TD;
   - (but I will eventually make an update)
 - I also might just be dumb and my assumptions are completely off base from other people's experiences
 
-but yea if you read this far then thanks for your time
+but yea if you read this far then thanks for your time, lmk what you think
