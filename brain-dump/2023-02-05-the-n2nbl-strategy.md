@@ -57,7 +57,7 @@ graph TD;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;obviously every situation is different, but I felt like this amount of problem distillation is entirely appropriate. Additionally, a core idea of this loop is that the extrinsic stimulus artificially boosts your motivation to finish a task and prolongs the time you spend on it (more on that later).
 
 
-here is the proposed loop 2 that I am currently testing:
+here is the proposed "n2nb" loop that I am currently testing:
 
 ```mermaid
 %%{
@@ -103,8 +103,8 @@ graph TD;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to summarize, I think the key to being more productive is to go through this n2nb-loop as many times as possible, and eventually you will find something that sticks *(assumption \#1)*. My issue with the first loop diagram is that extrinsic motivation is only good in moderation, and these outside factors can often result in you working on something longer than you should. After all, time is a very valuable resource 🙂
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;there are a few additional things that I think are important to note about this strategy:
-- not every project can benefit from this strategy, some are inherently social
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;there are a few additional things that I think are important to note:
+- not every activity can benefit from this strategy, some are inherently social
   - for example, playing a competitive team game with other people can push you to do better and keep up with everyone else's rate of improvement
 - I dunno if this is actually effective yet I just came up with it one afternoon
   - (but I will eventually make an update)
