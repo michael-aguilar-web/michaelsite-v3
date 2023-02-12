@@ -35,5 +35,5 @@ I like doing things that get the brain juices flowing 🙂
 - [league of legends diamond 3 season 9](https://www.op.gg/summoners/na/Broccoli%20TFT)
 
 
-[^1]: see [[2023-02-05-the-n2nbl-strategy|this post]] for why this activity is not specified
+[^1]: [[2023-02-05-the-n2nbl-strategy|this post]] explains why this activity is listed, but not specified
 [^2]: soloqueue only
