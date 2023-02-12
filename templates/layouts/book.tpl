@@ -1,15 +1,14 @@
 <apply template="base">
-  <bind tag="head-main"></bind>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QM63R1FXPM"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-QM63R1FXPM');
-  </script>
   <bind tag="body-main">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QM63R1FXPM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-QM63R1FXPM');
+    </script>
     <div class="container mx-auto">
 
       <apply template="components/breadcrumbs" />
