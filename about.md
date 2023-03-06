@@ -17,13 +17,14 @@ I like doing things that get the brain juices flowing 🙂
 ## things I currently spend my free time on
 *ordered by avg time spent per week, high to low*
 - frc mentoring
-- going to the gym to channel my inner caveman
 - ---[^1] <!--wb-->
-- ---[^1] <!--at-->
 - games
+    - apex
     - slowly learning chess so by the time I hit the retirement home I'll be the best one there
     - riot mmo whenever that comes out
-    - no other games because they all suck currently
+- going to the gym to channel my inner caveman
+- endlessly consuming nijisanji content
+- ---[^1] <!--at-->
 - ???
 
 
