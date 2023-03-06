@@ -7,32 +7,32 @@ order: 3
 
 # damage delta
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;so now that we know that getting faster at apex is the key to improvement, how exactly do we speed up fights? To answer this, let's look at the concept that I like to call the "damage delta":
+so now that we know that getting faster at apex is the key to improvement, how exactly do we speed up fights? To answer this, let's look at the concept that I like to call the "damage delta":
 
 ## what is the damage delta?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the "damage delta" is the difference between a player's **damage output** and their **damage taken** - I like to view it this way because apex is not as simple as putting out a ton of damage to get kills, but to get good you *also* have to focus on **minimizing the damage your are taking**.
+the "damage delta" is the difference between a player's **damage output** and their **damage taken** - I like to view it this way because apex is not as simple as putting out a ton of damage to get kills, but to get good you *also* have to focus on **minimizing the damage your are taking**.
 
 <center><img src="/images/damagedeltagraph.png" width="552" height="346"></center>
 
 ## why do we care about it?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the most important reason why maximizing the damage delta is important because it enables an **artifical numbers advantage**. When someone gets cracked and is forced to heal, they are essentially **out of the game** for the next few seconds *(see health item table below)*. For example, dealing 140 damage to someone with a purple shield means they will have to spend 10 to 27+ seconds doing nothing but healing. 
+the most important reason why maximizing the damage delta is important because it enables an **artifical numbers advantage**. When someone gets cracked and is forced to heal, they are essentially **out of the game** for the next few seconds *(see health item table below)*. For example, dealing 140 damage to someone with a purple shield means they will have to spend 10 to 27+ seconds doing nothing but healing. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this may seem obvious when said out loud, but timing is a huge part of this game. **Newer players often don't understand the importance of making a move right after they deal a lot of damage.** As soon as someone gets chunked for a lot of health, the clock starts ticking, and you have **a limited time to respond** before they are back to full. Remember, a shield battery only takes 5 seconds to pop.
+this may seem obvious when said out loud, but timing is a huge part of this game. **Newer players often don't understand the importance of making a move right after they deal a lot of damage.** As soon as someone gets chunked for a lot of health, the clock starts ticking, and you have **a limited time to respond** before they are back to full. Remember, a shield battery only takes 5 seconds to pop.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;however, you don't necessarily have to go completely monkey mode when you chunk someone. If you deal a lot of damage from range, you can use this window to **reposition** to a superior spot and angle out your opponent. It's only when you deal a lot of damage **up close**, that you should use the window to slide in and get the kill.
+however, you don't necessarily have to go completely monkey mode when you chunk someone. If you deal a lot of damage from range, you can use this window to **reposition** to a superior spot and angle out your opponent. It's only when you deal a lot of damage **up close**, that you should use the window to slide in and get the kill.
 
 <center><img src="/images/healthitems.png" width="325" height="425"></center>
 &nbsp;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;it's important to remember that the goal is to also **minimize** the damage taken. If you peek and deal 140 damage but also take 90 damage, you face the decision of either pushing at low hp, or mirroring their healing and missing that timing window.
+it's important to remember that the goal is to also **minimize** the damage taken. If you peek and deal 140 damage but also take 90 damage, you face the decision of either pushing at low hp, or mirroring their healing and missing that timing window.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;another reason why you should be minimizing the damage taken is because while you can shield swap to instantly get your **shields** to full health, you cannot instantly heal your **flesh health**. In a fight, unless you are **100% certain** that you are not going to get third partied, you should **always assume** that you will get third partied. We give ourselves a higher chance of beating the third party if we keep our flesh health **as high as possible**.
+another reason why you should be minimizing the damage taken is because while you can shield swap to instantly get your **shields** to full health, you cannot instantly heal your **flesh health**. In a fight, unless you are **100% certain** that you are not going to get third partied, you should **always assume** that you will get third partied. We give ourselves a higher chance of beating the third party if we keep our flesh health **as high as possible**.
 
 ## how do we increase our average damage delta?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;these are the core skills that I think go into increasing your average damage delta:
+these are the core skills that I think go into increasing your average damage delta:
 
 <center><img src="\images\skillimportance.PNG" width="600" height="400"></center>
 
@@ -42,7 +42,7 @@ as the goal of these fundamentals notes are to just get you into the correct min
 
 ### positioning
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;positioning is what I consider to be the most important skill involved in maximizing your damage delta. Positioning in a fight encompasses 2 main things: how well can you **control space**, and how well can you **utilize cover**.
+positioning is what I consider to be the most important skill involved in maximizing your damage delta. Positioning in a fight encompasses 2 main things: how well can you **control space**, and how well can you **utilize cover**.
 
 **_controlling [[space]]:_**
 - [↑ / ↓] are you constantly fighting to take more space from your opponents or are you sitting still and waiting for your opponent to make a move?
@@ -74,7 +74,7 @@ as the goal of these fundamentals notes are to just get you into the correct min
     - superglides
     - etc
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; check out [mokeysniper](https://youtube.com/playlist?list=PLutufyM99jBTt-KZL-o8laGixXhnFaBHm) on youtube if you want to learn anything movement related!
+check out [mokeysniper](https://youtube.com/playlist?list=PLutufyM99jBTt-KZL-o8laGixXhnFaBHm) on youtube if you want to learn anything movement related!
 
 ### aim
 
@@ -86,5 +86,6 @@ as the goal of these fundamentals notes are to just get you into the correct min
 - [↑ / ↓] are you getting good value out of your abilities?
 - [↑] are you picking up grenades and remembering to use them? are you using them to flush someone out of a building? are you using them to delay the enemies to give you time to heal or rez?
 
+[[space|next note →]]
 
 *last updated: march 5, 2023*

@@ -9,4 +9,6 @@ order: 4
 
 coming soon
 
+[[intro-to-macro|next note →]]
+
 *last updated: march 5, 2023*
