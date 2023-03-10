@@ -61,7 +61,7 @@ positioning is what I consider to be the most important skill involved in maximi
 
 **_movement:_**
 - [↑ / ↓] are you min-maxing your player speed? *(see mechanics list below)*
-  - when someone is healing, can you make it to them before they heal? 
+  - when a damaged enemy is healing, can you make it to them before they heal? 
   - when you are retreating, can you make it to somewhere safe enough to pop a heal in time?
   
 - [↓] are you strafing properly in a 1v1 fight? (just watch a pro and copy what they do when in a 1v1)
@@ -83,9 +83,9 @@ check out [mokeysniper](https://youtube.com/playlist?list=PLutufyM99jBTt-KZL-o8l
 
 ### ability and grenade usage
 
-- [↑ / ↓] are you getting good value out of your abilities?
+- [↑ / ↓] are you getting good value out of your abilities? are your abilities being fully utilized given your current situation?
 - [↑] are you picking up grenades and remembering to use them? are you using them to flush someone out of a building? are you using them to delay the enemies to give you time to heal or rez?
 
 [[space|next note →]]
 
-*last updated: march 5, 2023*
+*last updated: march 10, 2023*

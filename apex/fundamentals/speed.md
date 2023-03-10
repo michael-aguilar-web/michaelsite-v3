@@ -11,9 +11,7 @@ order: 2
 
 if you've ever been unlucky enough to be matched against a highly skilled player as a noob, you probably have firsthand experience of what separates noobs from good players - chances are, you died extremely fast 🙂. If we compared players of each rank side by side, it would probably look something like this:
 
-<center><img src="/images/speedvrank.png" width="432" height="360"></center>
-
-imo, the skill level of a player is defined by how fast they can play the game. 
+<center><img src="/images/speedvrank.png" width="432" height="360"></center> 
 
 ## so what does it mean to be a speedy apex player?
 
@@ -23,6 +21,8 @@ speed in apex can be simply defined as how fast a player is at performing an in 
 - how fast can you rotate to the spot you want?
 - how fast can you loot?
 - how fast can you ... ?
+
+a player's **overall** skill is determined by how fast they are at all of the tasks in the game.
 
 note how I don't define it only as how fast they can get **kills** - while grinding raw mechanics is one way to get better at the game, there are plenty of other skills that are **just as important** to improve upon.
 
@@ -52,4 +52,4 @@ if you've never seen a pro speeding across the map before check out this guy:
   - looting
   - ???
 
-*last updated: march 5, 2023*
+*last updated: march 10, 2023*
