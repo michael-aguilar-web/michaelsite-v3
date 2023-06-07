@@ -24,7 +24,7 @@ I like doing things that get the brain juices flowing 🙂
     - using osu to meditate
     - riot mmo whenever that comes out
 - inhaling nijisanji content
-- frc mentoring (usually #1 in time spent but it is currently offseason)
+- frc mentoring (usually \#1 in time spent but it is currently offseason)
 - going to the gym to channel my inner caveman
 - ---[^1] <!--wb-->
 - ???
