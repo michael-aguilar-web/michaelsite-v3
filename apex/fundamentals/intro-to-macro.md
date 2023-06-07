@@ -7,6 +7,6 @@ order: 5
 
 # intro to macro
 
-coming soon
+coming eventually
 
 *last updated: march 5, 2023*

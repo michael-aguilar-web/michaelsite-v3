@@ -16,15 +16,17 @@ I like doing things that get the brain juices flowing 🙂
 
 ## things I currently spend my free time on
 *ordered by avg time spent per week, high to low*
-- frc mentoring
-- ---[^1] <!--wb-->
+
+- ---[^1] <!--bp-->
 - games
-    - apex
-    - slowly learning chess so by the time I hit the retirement home I'll be the best one there
+    - tft
+    - ~~apex~~ 
+    - using osu to meditate
     - riot mmo whenever that comes out
+- inhaling nijisanji content
+- frc mentoring (usually #1 in time spent but it is currently offseason)
 - going to the gym to channel my inner caveman
-- endlessly consuming nijisanji content
-- ---[^1] <!--at-->
+- ---[^1] <!--wb-->
 - ???
 
 
@@ -34,6 +36,10 @@ I like doing things that get the brain juices flowing 🙂
 - teamfight tactics [grandmaster set 7.5](images/tftrank.png) (476 LP peak) | master set 6 / 6.5
 - [osu rank \#7623](https://osu.ppy.sh/users/5870537) 
 - [league of legends diamond 3 season 9](https://www.op.gg/summoners/na/Broccoli%20TFT)
+
+&nbsp;
+
+*last updated: june 6, 2023*
 
 
 [^1]: [[2023-02-05-the-n2nbl-strategy|this post]] explains why this activity is listed, but not specified

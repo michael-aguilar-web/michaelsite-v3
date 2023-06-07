@@ -7,7 +7,7 @@ order: 4
 
 # space
 
-coming soon
+coming eventually
 
 [[intro-to-macro|next note →]]
 

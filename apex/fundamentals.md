@@ -11,5 +11,5 @@ if you have any questions about these notes, you can always ask me 🙂
 1. [[the-basics|the basics]]
 2. [[speed]]
 3. [[damage-delta|damage delta]]
-4. *coming soon* <!-- [[space]] -->
-5. *coming soon* <!-- [[intro-to-macro|intro to macro]] -->
+4. *coming eventually* <!-- [[space]] -->
+5. *coming eventually* <!-- [[intro-to-macro|intro to macro]] -->
