@@ -96,7 +96,7 @@
         <h1 class="pb-2 mb-2 text-5xl font-bold text-center" />
         <h2 class="inline-block mt-6 mb-4 text-3xl font-bold border-b-2" />
         <h3 class="mt-6 mb-2 text-3xl font-bold text-gray-700" />
-        <h4 class="mt-6 mb-2 text-2xl font-bold text-gray-700" />
+        <h4 class="mt-6 mb-2 text-xl font-bold text-gray-700" />
         <h5 class="mt-6 mb-2 text-xl font-bold text-gray-700" />
         <h6 class="mt-6 mb-2 text-xl font-bold text-gray-700" />
     </Header>
