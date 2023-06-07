@@ -11,7 +11,7 @@ hello I'm Michael, aka Broccoli - I was previously a full-time degenerate sweaty
 I like doing things that get the brain juices flowing 🙂
 
 
-*discord: Broccoli\#6139*
+*discord: broccoccoccoli*
 
 
 ## things I currently spend my free time on
@@ -39,7 +39,7 @@ I like doing things that get the brain juices flowing 🙂
 
 &nbsp;
 
-*last updated: june 6, 2023*
+*last updated: june 7, 2023*
 
 
 [^1]: [[2023-02-05-the-n2nbl-strategy|this post]] explains why this activity is listed, but not specified
