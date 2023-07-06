@@ -5,10 +5,7 @@ order: 1
 
 # about
 
-hello I'm Michael, aka Broccoli - I was previously a full-time degenerate sweaty gamer, but now I am a full-time mechanical engineer (GaTech 22') 
-
-
-I like doing things that get the brain juices flowing 🙂
+hello I'm Michael, aka Broccoli - I'm a mechanical engineer that likes doing things that get the brain juices flowing :slightly_smiling_face:
 
 
 *discord: broccoccoccoli*
@@ -17,14 +14,16 @@ I like doing things that get the brain juices flowing 🙂
 ## things I currently spend my free time on
 *ordered by avg time spent per week, high to low*
 
-- ---[^1] <!--bp-->
 - games
     - tft
-    - ~~apex~~ 
+    - ~~apex~~
+    - aram
     - using osu to meditate
     - riot mmo whenever that comes out
+- finding a new job because my current one sucks
 - inhaling nijisanji content
 - frc mentoring (usually \#1 in time spent but it is currently offseason)
+- ---[^1] <!--bp-->
 - going to the gym to channel my inner caveman
 - ---[^1] <!--wb-->
 - ???
@@ -39,7 +38,7 @@ I like doing things that get the brain juices flowing 🙂
 
 &nbsp;
 
-*last updated: june 7, 2023*
+*last updated: july 5, 2023*
 
 
 [^1]: [[2023-02-05-the-n2nbl-strategy|this post]] explains why this activity is listed, but not specified

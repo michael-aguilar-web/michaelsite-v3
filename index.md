@@ -11,7 +11,7 @@
 
 hi, I'm [[about|Broccoli]]
 
-welcome to my personal site 🙂
+welcome to my personal site 🥦
 
 
 here's some links to my stuff:
