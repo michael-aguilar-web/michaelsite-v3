@@ -5,7 +5,7 @@ order: 1
 
 # about
 
-hello I'm Michael, aka Broccoli - I'm a mechanical engineer that likes doing things that get the brain juices flowing :slightly_smiling_face:
+hello I'm Michael, aka Broccoli - I'm a mechanical engineer who enjoys doing things that get the brain juices flowing :slightly_smiling_face:
 
 
 *discord: broccoccoccoli*
