@@ -2,8 +2,8 @@
 # https://github.com/srid/emanote/blob/master/default/index.yaml
 
 page:
-  siteTitle: broccosite
-  siteName: broccosite
+  siteTitle: michaelbaguilar
+  siteName: michaelbaguilar
   headHtml: |
     <snippet var="js.highlightjs" />
   bodyHtml: |

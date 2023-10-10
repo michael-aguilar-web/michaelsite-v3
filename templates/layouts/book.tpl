@@ -1,13 +1,13 @@
 <apply template="base">
   <bind tag="body-main">
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QM63R1FXPM"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KL6H9CBVY5"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
+      function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-QM63R1FXPM');
+      gtag('config', 'G-KL6H9CBVY5');
     </script>
     <div class="container mx-auto">
 
