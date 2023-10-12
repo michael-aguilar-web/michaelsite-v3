@@ -25,6 +25,6 @@
 <hr class="m-2">
 <div class="frame">
   <div>
-    <img src="/images/broccocolon3.png" width="128" height="128" alt="broccocolon3">
+    <img src="images/s3otto_cropped.png" width="128" height="128" alt="s3otto_cropped">
   </div>
 </div>

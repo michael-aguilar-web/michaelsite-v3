@@ -10,8 +10,8 @@ page:
     <snippet var="js.mermaid" />
 
 template:
-  theme: green
-  iconUrl: /broccoicon.png
+  theme: red
+  iconUrl: /beancan.png
   urlStrategy: pretty
   sidebar:
     collapsed: true

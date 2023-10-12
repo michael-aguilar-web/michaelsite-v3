@@ -1,14 +1,14 @@
 ---
 slug: about
-order: 1
+order: 3
 ---
 
-# about
+# About
 
 hello I'm Michael I'm on team 1746
 
 test
-2
+
 
 
 
