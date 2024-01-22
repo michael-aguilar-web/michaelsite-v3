@@ -1,16 +1,7 @@
-# Website Title
-<style>
-    a[data-linkicon="external"]::after {
-      content: none;
-    }
+---
+template:
+  name: /templates/home
+---
 
-    .button-font {
-      font-family: "Outfit", sans-serif;
-    }
-</style>
+# michaelbaguilar
 
-hi 
-
-test site
-
-under construction
