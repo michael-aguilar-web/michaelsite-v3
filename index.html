@@ -5,15 +5,15 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>
-    Website Title – michaelbaguilar
+    michaelbaguilar
   </title>
   
     
-      <meta property='og:description' content='hi' />
+      <meta property='og:description' content />
       <meta property='og:site_name' content='michaelbaguilar' />
       <meta property='og:image' content />
       <meta property='og:type' content='website' />
-      <meta property='og:title' content='Website Title' />
+      <meta property='og:title' content='michaelbaguilar' />
     
     
       <base href='/' />
@@ -30,7 +30,7 @@
 
 
   
-  <link href='tailwind.css?instanceId=1881684d-e339-4257-a480-25a0c990548b' rel='stylesheet' type='text/css' />
+  <link href='tailwind.css?instanceId=cde5495e-51aa-4620-b197-18a753e6e5db' rel='stylesheet' type='text/css' />
 
   <style>
     /* Heist error element */
@@ -233,329 +233,34 @@
 
 <body class='bg-gray-400 overflow-y-scroll'>
   
-    <!-- Google tag (gtag.js) -->
-    <script async src='https://www.googletagmanager.com/gtag/js?id=G-KL6H9CBVY5'></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-KL6H9CBVY5');
-    </script>
-    <div class='container mx-auto'>
-
-      <nav id='breadcrumbs' class='w-full text-gray-700 md:hidden'>
-  <div class='flex justify-left'>
-    <div class='w-full px-2 py-2 bg-gray-50'>
-      <ul class='flex flex-wrap text-lg'>
-        <li class='inline-flex items-center'>
-          
-            
-              <img style='width: 1rem;' src='/beancan.png' />
-            
-          
-        </li>
+      <div class='container max-w-screen-md mx-auto mt-8 flex flex-col items-center justify-center'>
         
-      </ul>
-    </div>
-    <button class='inline px-2 py-1 bg-gray-50 outline-none cursor-pointer focus:outline-none' title='Search (Ctrl+K)' type='button' onclick='window.emanote.stork.toggleSearch()'>
-      <svg xmlns='http://www.w3.org/2000/svg' style='width: 1rem;' class='hover:text-red-700' f
- fill='none' viewBox='0 0 24 24' stroke='currentColor' stroke-width='2'>
-  <path stroke-linecap='round' stroke-linejoin='round' d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z'></path>
-</svg>
-    </button>
-    <button class='inline px-2 py-1 text-white bg-red-600 outline-none cursor-pointer focus:outline-none' title='Toggle sidebar' type='button' onclick="toggleHidden('sidebar')">
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-4' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
-        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 6h16M4 12h16M4 18h16'></path>
-      </svg>
-    </button>
-    <script>
-      function toggleHidden(elemId) {
-        document.getElementById(elemId).classList.toggle("hidden");
-      }
-    </script>
-  </div>
-</nav>
-
-      <div id='container' class='flex flex-nowrap flex-col md:flex-row bg-gray-50 md:mt-8 md:shadow-2xl md:mb-8'>
-        <!-- Sidebar column -->
-        <nav id='sidebar' class='flex-shrink hidden leading-relaxed md:block md:sticky md:top-0 md:h-full md:w-48 xl:w-64'>
-          <div class='px-2 py-2 text-gray-800'>
-            <div id='indexing-links' class='flex flex-row float-right p-2 space-x-2 text-gray-500'>
-              <a href='-/tags' title='View tags'>
-                <svg style='width: 1rem;' class='hover:text-red-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z'>
-                  </path>
-                </svg>
-              </a>
-              <a href='-/all' title='Expand full tree'>
-                <svg style='width: 1rem;' class='hover:text-red-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-                  <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4'>
-                  </path>
-                </svg>
-              </a>
-              <a title='Search (Ctrl+K)' class='cursor-pointer' onclick='window.emanote.stork.toggleSearch()'>
-                <svg xmlns='http://www.w3.org/2000/svg' style='width: 1rem;' class='hover:text-red-700' f
- fill='none' viewBox='0 0 24 24' stroke='currentColor' stroke-width='2'>
-  <path stroke-linecap='round' stroke-linejoin='round' d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z'></path>
-</svg>
-              </a>
-            </div>
-
-            <div id='site-logo' class='pl-2'>
-              <div class='flex items-center my-2 space-x-2 justify-left'>
-                <a href='' title='Go to Home'>
-                  
-                    
-                      <!-- The style width attribute here is to prevent huge
-                        icon from displaying at those rare occasions when Tailwind
-                        hasn't kicked in immediately on page load 
-                        -->
-                      <img style='width: 1rem;' class='transition transform hover:scale-110 hover:opacity-80' src='/beancan.png' />
-                    
-                  
-                </a>
-                <a class='font-bold truncate' title='Go to Home' href=''>
-                  home
-                </a>
-              </div>
-            </div>
-
-            
-              <!-- Variable bindings for this tree-->
-  
-    
-  
-
-
-
-  
-  
-
-<!-- Rendering of this tree -->
-<div class='pl-2'>
-  <!-- Node's rootLabel-->
-  <div class='flex items-center my-2 space-x-2 justify-left'>
-    
-    
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
-        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
-      </svg>
-    
-  
-    <a class='hover:underline truncate' title='FRC' href='frc'>
-      FRC
-    </a>
-    
-      
-        <span class='text-gray-300' title='1 children inside'>
-          1
-        </span>
-      
-    
-  </div>
-
-  <!-- Node's children forest, displayed only on active trees
-    TODO: Use <details> to toggle visibility?
-  -->
-  
-</div>
-            
-              <!-- Variable bindings for this tree-->
-  
-    
-  
-
-
-
-  
-  
-
-<!-- Rendering of this tree -->
-<div class='pl-2'>
-  <!-- Node's rootLabel-->
-  <div class='flex items-center my-2 space-x-2 justify-left'>
-    
-    
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
-        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
-      </svg>
-    
-  
-    <a class='hover:underline truncate' title='Blog' href='blog'>
-      Blog
-    </a>
-    
-      
-        <span class='text-gray-300' title='1 children inside'>
-          1
-        </span>
-      
-    
-  </div>
-
-  <!-- Node's children forest, displayed only on active trees
-    TODO: Use <details> to toggle visibility?
-  -->
-  
-</div>
-            
-              <!-- Variable bindings for this tree-->
-  
-    
-  
-
-
-
-  
-
-
-<!-- Rendering of this tree -->
-<div class='pl-2'>
-  <!-- Node's rootLabel-->
-  <div class='flex items-center my-2 space-x-2 justify-left'>
-    
-    
-      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
-        </path>
-      </svg>
-    
-  
-    <a class='hover:underline truncate' title='About' href='about'>
-      About
-    </a>
-    
-      
         
-    
-  </div>
-
-  <!-- Node's children forest, displayed only on active trees
-    TODO: Use <details> to toggle visibility?
-  -->
+        
   
-</div>
+        <!-- Topmost card -->
+        <div style='max-width: 40em;' class='rounded-lg shadow-md m-4 bg-white  px-4 py-6 flex flex-col items-center justify-center space-y-4'>
+          <div class='w-32 flex-shrink-0'>
             
-
+              
+                <img src='images\s3otto_cropped.png' class='rounded-full object-cover' />
+              
+            
           </div>
-        </nav>
-
-        <!-- Main body column -->
-        <div class='flex-1 w-full overflow-x-auto bg-white'>
-          <main class='px-4 py-4'>
-            <h1 class='flex items-end justify-center mb-4 p-3 bg-red-100 text-5xl font-extrabold text-black rounded'>
-    <a class='z-40 tracking-normal'>
-        Website Title
-    </a>
-</h1>
-            <article class='overflow-auto'>
-  <!-- What goes in this file will appear on top of note body-->
-  <div xmlhtmlRaw><style>
-    a[data-linkicon="external"]::after {
-      content: none;
-    }
-
-    .button-font {
-      font-family: "Outfit", sans-serif;
-    }
-</style>
-</div>
-        <p class='mb-3'>
-            hi
-        </p>
-    
-        <p class='mb-3'>
-            test site
-        </p>
-    
-        <p class='mb-3'>
-            under construction
-        </p>
-    
-  <style>
-  .frame {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 128px;
-  }
-
-  img {
-    text-align: center;
-    vertical-align: middle;
-  }
-</style>
-<div class='flex items-center justify-center mt-2'>
+        </div>
   
-    
-      <a class='text-gray-300 hover:text-red-600 text-sm' title='Edit this page on GitHub' href='${value:editBaseUrl}/index.md'>
-        <svg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
-        </svg>
-      </a>
-    
+        <!-- Footer -->
+        <div class='flex flex-row justify-center'>
+          <a href='https://www.linkedin.com/in/michaelbaguilar/' class='rounded-lg hover:shadow-md m-4 hover:bg-white flex-shrink-0  w-12 p-2' title='linkedin'>
+            <img src='images\linkedin-60.png' />
+          </a>
+          <a href='mailto: michael.b.aguilar@gmail.com' class='rounded-lg hover:shadow-md m-4 hover:bg-white flex-shrink-0  w-12 p-2' title='email'>
+            <img src='images\email-60.png' />
+          </a>
   
-</div>
-<hr class='m-2' />
-<div class='frame'>
-  <div>
-    <img src='images/s3otto_cropped.png' width='128' height='128' alt='s3otto_cropped' />
-  </div>
-</div>
-</article>
-            <div class='flex flex-col lg:flex-row lg:space-x-2'>
-              
-              
-            </div>
-            
-  <section class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>
-    
-  </section>
-
-            <!-- What goes in this file will at the very end of the main div -->
-          </main>
         </div>
       </div>
-      <footer class='flex items-center justify-center mt-2 mb-8 space-x-4 text-center text-gray-800'>
-  
-  <div>
-    <a href='' title='Go to Home page'>
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-6 h-6 hover:text-red-700' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
-        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6'></path>
-      </svg>
-    </a>
-  </div>
-  <div>
-    <a href='-/all' title='View Index'>
-      <svg class='w-6 h-6 hover:text-red-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4'>
-        </path>
-      </svg>
-    </a>
-  </div>
-  <div>
-    <a href='https://emanote.srid.ca' target='_blank' title='Generated by Emanote 1.0.2.0'>
-      <img class='w-6 h-6 hover:text-red-700' src='_emanote-static/emanote-logo.svg' />
-    </a>
-  </div>
-  <div>
-    <a href='-/tags' title='View tags'>
-      <svg class='w-6 h-6 hover:text-red-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z'>
-        </path>
-      </svg>
-    </a>
-  </div>
-  <div>
-    <a href='-/tasks' title='View tasks'>
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-6 h-6 hover:text-red-700' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
-        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'></path>
-      </svg>
-    </a>
-  </div>
-</footer>
-    </div>
-  
+    
   <div id='stork-search-container' class='hidden fixed w-screen h-screen inset-0 backdrop-filter backdrop-blur-sm'>
   <div class='fixed w-screen h-screen inset-0' onclick='window.emanote.stork.toggleSearch()'></div>
 
