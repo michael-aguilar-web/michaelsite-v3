@@ -11,7 +11,7 @@ page:
 
 template:
   theme: red
-  iconUrl: /beancan.png
+  iconUrl: /bean.png
   urlStrategy: pretty
   sidebar:
     collapsed: true
