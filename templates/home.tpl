@@ -10,7 +10,7 @@
           <div class="w-32 flex-shrink-0">
             <ema:metadata>
               <with var="template">
-                <img src="images\s3otto_cropped.png" class="rounded-full object-cover">
+                <img src="images\s3_1white_cropped.png" class="rounded-full object-cover">
               </with>
             </ema:metadata>
           </div>

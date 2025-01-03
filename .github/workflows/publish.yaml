@@ -8,20 +8,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: nixbuild/nix-quick-install-action@v21
+
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@v1
         with:
-          nix_conf: |
+          version: "2.12.0"
+          extra_conf: |
             experimental-features = nix-command flakes
-            access-tokens = github.com=${{ secrets.TOKEN }}
+
       - uses: cachix/cachix-action@v11
         with:
           name: srid
+
       - name: Build the website (Nix) 🔧
         run: |
           nix build -j 4
+
       - name: Deploy to gh-pages 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.TOKEN }}
-          publish_dir: ./result/
+          publish_dir: ./result
           cname: michaelbaguilar.com
