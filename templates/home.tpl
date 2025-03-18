@@ -24,6 +24,9 @@
           <a href="mailto: michael.b.aguilar@gmail.com" class="${cardSmallClass} w-12 p-2" title="email">
             <img src="images\email-60.png">
           </a>
+          <a href="https://www.youtube.com/@michael.aguilar" class="${cardSmallClass} w-12 p-2" title="youtube">
+            <img src="images\youtube-60.png">
+          </a>
   
         </div>
       </div>
