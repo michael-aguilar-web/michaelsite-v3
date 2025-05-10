@@ -40,3 +40,5 @@
         font-variation-settings: 'wght' 300;
     }
 </style>
+
+<script src="https://cdn.tailwindcss.com"></script>

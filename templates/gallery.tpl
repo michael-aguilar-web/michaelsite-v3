@@ -11,21 +11,21 @@
       <!-- Main Content -->
       <main class="flex-1 mb-16">
         <div class="${galleryClass}">
-          <div class="${imageContainer}"><img src="images/gallery/BEAN25.png" alt="Description" class="${imageClass}">
+          <div class="${imageContainer}"><img src="images/gallery/BEAN25.webp" alt="BEAN 25" class="${imageClass}">
           </div>
-          <div class="${imageContainer}"><img src="images/gallery/OTTO24B.jpg" alt="Description" class="${imageClass}">
+          <div class="${imageContainer}"><img src="images/gallery/OTTO24B.webp" alt="OTTO 24B" class="${imageClass}">
           </div>
-          <div class="${imageContainer}"><img src="images/gallery/OTTO24A.jpg" alt="Description" class="${imageClass}">
+          <div class="${imageContainer}"><img src="images/gallery/OTTO24A.webp" alt="OTTO 24A" class="${imageClass}">
           </div>
-          <div class="${imageContainer}"><img src="images/gallery/OTTO23B.jpg" alt="Description" class="${imageClass}">
+          <div class="${imageContainer}"><img src="images/gallery/OTTO23B.webp" alt="OTTO 23B" class="${imageClass}">
           </div>
-          <div class="${imageContainer}"><img src="images/gallery/OTTO23A.png" alt="Description" class="${imageClass}">
+          <div class="${imageContainer}"><img src="images/gallery/OTTO23A.webp" alt="OTTO 23A" class="${imageClass}">
           </div>
-          <div class="${imageContainer}"><img src="images/gallery/OTTO17.jpg" alt="Description" class="${imageClass}">
+          <div class="${imageContainer}"><img src="images/gallery/OTTO17.webp" alt="OTTO 17" class="${imageClass}">
           </div>
-          <div class="${imageContainer}"><img src="images/gallery/OTTO16B.jpg" alt="Description" class="${imageClass}">
+          <div class="${imageContainer}"><img src="images/gallery/OTTO16B.webp" alt="OTTO 16B" class="${imageClass}">
           </div>
-          <div class="${imageContainer}"><img src="images/gallery/OTTO16A.jpg" alt="Description" class="${imageClass}">
+          <div class="${imageContainer}"><img src="images/gallery/OTTO16A.webp" alt="OTTO 16A" class="${imageClass}">
           </div>
           <!-- Add more images as needed -->
         </div>
