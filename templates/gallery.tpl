@@ -16,49 +16,49 @@
           <div class="${imageContainer}">
             <img src="images/gallery/BEAN25.webp" alt="BEAN 25" class="${imageClass}" loading="lazy">
             <div class="${textOverlay}">
-              <p>Team BEAN 1833's first robot, designed for the 2025 FRC game <em>Reefscape</em></p>
+              <p>1833 (2025)</p>
             </div>
           </div>
           <div class="${imageContainer}">
             <img src="images/gallery/OTTO24B.webp" alt="OTTO 24B" class="${imageClass}" loading="lazy">
             <div class="${textOverlay}">
-              <p>Team OTTO 1746's 2024 robot, post rebuild</p>
+              <p>1746 (2024 v2)</p>
             </div>
           </div>
           <div class="${imageContainer}">
             <img src="images/gallery/OTTO24A.webp" alt="OTTO 24A" class="${imageClass}" loading="lazy">
             <div class="${textOverlay}">
-              <p>Team OTTO 1746's original 2024 robot, designed for the FRC game <em>Crescendo</em></p>
+              <p>1746 (2024)</p>
             </div>
           </div>
           <div class="${imageContainer}">
             <img src="images/gallery/OTTO23B.webp" alt="OTTO 23B" class="${imageClass}" loading="lazy">
             <div class="${textOverlay}">
-              <p>Team OTTO 1746's 2023 robot, post rebuild</p>
+              <p>1746 (2023 v2)</p>
             </div>
           </div>
           <div class="${imageContainer}">
             <img src="images/gallery/OTTO23A.webp" alt="OTTO 23A" class="${imageClass}" loading="lazy">
             <div class="${textOverlay}">
-              <p>Team OTTO 1746's original 2023 robot, designed for the FRC game <em>CHARGED UP</em></p>
+              <p>1746 (2023)</p>
             </div>
           </div>
           <div class="${imageContainer}">
             <img src="images/gallery/OTTO17.webp" alt="OTTO 17" class="${imageClass}" loading="lazy">
             <div class="${textOverlay}">
-              <p>Team OTTO 1746's 2017 robot, designed for the FRC game <em>Steamworks</em></p>
+              <p>1746 (2017)</p>
             </div>
           </div>
           <div class="${imageContainer}">
             <img src="images/gallery/OTTO16B.webp" alt="OTTO 16B" class="${imageClass}" loading="lazy">
             <div class="${textOverlay}">
-              <p>Team OTTO 1746's 2016 summer rebuild</p>
+              <p>1746 (2016 v2)</p>
             </div>
           </div>
           <div class="${imageContainer}">
             <img src="images/gallery/OTTO16A.webp" alt="OTTO 16A" class="${imageClass}" loading="lazy">
             <div class="${textOverlay}">
-              <p>Team OTTO 1746's 2016 robot, designed for the FRC game <em>Stronghold</em></p>
+              <p>1746 (2016)</p>
             </div>
           </div>
         </div>
