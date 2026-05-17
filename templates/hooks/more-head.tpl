@@ -420,7 +420,7 @@
     }
 
     .tab-link-item::after {
-        content: '↗';
+        content: '\2197\FE0E';
         font-size: 0.875rem;
         opacity: 0.6;
         flex-shrink: 0;
