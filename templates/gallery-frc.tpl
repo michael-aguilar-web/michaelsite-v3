@@ -142,10 +142,12 @@
         function goToSlide(i) {
           _slide = i;
           const img = document.getElementById('modal-img');
+          const left = document.getElementById('modal-left');
           const preload = new Image();
-          preload.onload = () => { img.src = preload.src; img.style.opacity = '1'; };
-          preload.onerror = () => { img.src = _images[i]; img.style.opacity = '1'; };
+          preload.onload = () => { img.src = preload.src; img.style.opacity = '1'; left.classList.remove('loading'); };
+          preload.onerror = () => { img.src = _images[i]; img.style.opacity = '1'; left.classList.remove('loading'); };
           img.style.opacity = '0';
+          left.classList.add('loading');
           preload.src = _images[i];
           document.querySelectorAll('.modal-dot').forEach((d, j) => d.classList.toggle('active', j === i));
         }

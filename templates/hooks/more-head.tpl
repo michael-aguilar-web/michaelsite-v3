@@ -277,6 +277,22 @@
         flex-shrink: 0;
     }
 
+    #modal-left.loading::after {
+        content: '';
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        border: 3px solid rgba(255, 255, 255, 0.2);
+        border-top-color: #fff;
+        border-radius: 50%;
+        animation: modal-spin 0.7s linear infinite;
+        pointer-events: none;
+    }
+
+    @keyframes modal-spin {
+        to { transform: rotate(360deg); }
+    }
+
     #modal-img {
         width: 100%;
         height: 100%;
