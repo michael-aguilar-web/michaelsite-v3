@@ -10,7 +10,8 @@
         <div class="w-32 flex-shrink-0">
           <ema:metadata>
             <with var="template">
-              <img src="images/s3_1white_cropped.png" class="rounded-full object-cover">
+              <img id="avatar-img" src="images/s3_1white_cropped.png" class="rounded-full object-cover"
+                style="user-select:none;-webkit-touch-callout:none;touch-action:manipulation;cursor:pointer;">
             </with>
           </ema:metadata>
         </div>
@@ -34,6 +35,13 @@
           <img src="images/linkedin-60.png">
         </a>
 
+      </div>
+
+      <!-- Secret wiki row — revealed by long press on avatar -->
+      <div id="secret-row" style="opacity:0;pointer-events:none;" class="flex flex-row justify-center">
+        <a href="wiki" class="${cardSmallClass} w-12 p-2" data-label="wiki" aria-label="wiki">
+          <img src="images/open-book-60.png">
+        </a>
       </div>
     </div>
 
@@ -59,6 +67,43 @@
 
       .cursor-label.show {
         opacity: 1;
+      }
+
+      @keyframes secret-hide {
+        from {
+          opacity: 1;
+          transform: scale(1);
+        }
+
+        to {
+          opacity: 0;
+          transform: scale(0.75);
+        }
+      }
+
+      @keyframes secret-pop {
+        0% {
+          opacity: 0;
+          transform: scale(0.2) rotate(-12deg);
+        }
+
+        55% {
+          opacity: 1;
+          transform: scale(1.22) rotate(6deg);
+        }
+
+        75% {
+          transform: scale(0.91) rotate(-2deg);
+        }
+
+        90% {
+          transform: scale(1.05) rotate(1deg);
+        }
+
+        100% {
+          opacity: 1;
+          transform: scale(1) rotate(0deg);
+        }
       }
     </style>
     <div id="cursor-label" class="cursor-label" aria-hidden="true"></div>
@@ -97,6 +142,52 @@
             label.classList.remove('show');
           }, { passive: true });
         });
+      })();
+    </script>
+
+    <!-- Secret wiki long-press handler -->
+    <script>
+      (function () {
+        const avatar = document.getElementById('avatar-img');
+        const secretRow = document.getElementById('secret-row');
+        if (!avatar || !secretRow) return;
+
+        const HOLD_MS = 800;
+        let timer = null;
+        let hideTimer = null;
+
+        function hide() {
+          secretRow.style.pointerEvents = 'none';
+          secretRow.style.animation = 'secret-hide 400ms ease forwards';
+        }
+
+        function reveal() {
+          secretRow.style.transition = '';
+          secretRow.style.pointerEvents = 'auto';
+          secretRow.style.animation = 'secret-pop 550ms cubic-bezier(0.34, 1.56, 0.64, 1) forwards';
+          clearTimeout(hideTimer);
+          hideTimer = setTimeout(hide, 4000);
+        }
+
+        function cancel() { clearTimeout(timer); }
+
+        avatar.addEventListener('touchstart', () => { timer = setTimeout(reveal, HOLD_MS); }, { passive: true });
+        avatar.addEventListener('touchend', cancel, { passive: true });
+        avatar.addEventListener('touchmove', cancel, { passive: true });
+
+        avatar.addEventListener('mousedown', () => { timer = setTimeout(reveal, HOLD_MS); });
+        avatar.addEventListener('mouseup', cancel);
+        avatar.addEventListener('mouseleave', cancel);
+
+        avatar.addEventListener('contextmenu', e => e.preventDefault());
+
+        const wikiLink = secretRow.querySelector('a');
+        if (wikiLink) {
+          wikiLink.addEventListener('click', () => {
+            clearTimeout(hideTimer);
+            hide();
+          });
+        }
       })();
     </script>
 
