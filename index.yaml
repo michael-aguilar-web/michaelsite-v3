@@ -15,6 +15,8 @@ template:
   urlStrategy: pretty
   sidebar:
     collapsed: true
+  toc:
+    enable: false
 
 emanote:
   folder-folgezettel: true;

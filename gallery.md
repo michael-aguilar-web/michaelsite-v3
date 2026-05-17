@@ -7,4 +7,5 @@ template:
   name: /templates/gallery
 ---
 
-# michaelbaguilar
+# gallery
+

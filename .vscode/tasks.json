@@ -6,10 +6,10 @@
         {
             "label": "Emanote Live Server",
             "type": "shell",
-            "command": "nix",
-            "args": [
-                "run"
-            ],
+            "command": "./dev.sh",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
             "problemMatcher": [],
             "group": {
                 "kind": "build",
