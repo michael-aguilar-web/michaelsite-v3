@@ -492,7 +492,7 @@
         #modal-card {
             width: 100vw;
             max-width: 100vw;
-            height: 100vh;
+            height: 100dvh;
             margin-bottom: 0;
             border-radius: 0;
             flex-direction: column;
@@ -508,6 +508,7 @@
             width: 100%;
             height: 55%;
             padding: 14px 16px 12px;
+            overflow: hidden;
         }
 
         #modal-title {
