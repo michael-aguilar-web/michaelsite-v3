@@ -5,7 +5,7 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>
-    michaelbaguilar
+    frc gallery – michaelbaguilar
   </title>
   
     
@@ -14,7 +14,7 @@
       <meta property='og:site_name' content='michaelbaguilar' />
       <meta property='og:image' content />
       <meta property='og:type' content='website' />
-      <meta property='og:title' content='michaelbaguilar' />
+      <meta property='og:title' content='frc gallery' />
     
     
       <base href='/' />
@@ -31,7 +31,7 @@
 
 
   
-  <link href='tailwind.css?instanceId=25b8b60d-e325-4eb8-8493-372426db7737' rel='stylesheet' type='text/css' />
+  <link href='tailwind.css?instanceId=65feec53-0ba8-40d3-9f52-c0af74c6ad76' rel='stylesheet' type='text/css' />
 
   <style>
     /* Heist error element */
@@ -122,10 +122,483 @@
     h3 {
         font-variation-settings: 'wght' 300;
     }
+
+    /* Override emanote 1.4.0 default header styling to restore custom formatting */
+    article h1 {
+        padding-bottom: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+        font-size: 3rem !important;
+        font-weight: bold !important;
+        text-align: center !important;
+        background: none !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        margin-bottom: 0.5rem !important;
+        display: block !important;
+    }
+
+    article h2 {
+        display: inline-block !important;
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+        font-size: 2.25rem !important;
+        font-weight: bold !important;
+        border-bottom: 2px solid #d1d5db !important;
+    }
+
+    article h3 {
+        margin-top: 1rem !important;
+        margin-bottom: 0.5rem !important;
+        font-size: 1.875rem !important;
+        font-weight: bold !important;
+    }
+
+    article h4 {
+        /* basically just h3 but without the weird top margin, used as a replacement for h3 immediately following an h1 or h2 */
+        margin-top: 0rem !important;
+        margin-bottom: 0.5rem !important;
+        font-size: 1.875rem !important;
+        font-weight: bold !important;
+    }
+
+
+    article h5 {
+        margin-top: 0.25rem !important;
+        margin-bottom: 0.5rem !important;
+        font-size: 1.25rem !important;
+        font-weight: bold !important;
+    }
+
+
+    article h6 {
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+        font-size: 1.25rem !important;
+        font-weight: bold !important;
+        color: #374151 !important;
+    }
+
+    /* Custom callout styling */
+    .callout {
+        border-radius: 0.5rem;
+        padding: 1rem;
+        margin: 1.5rem 0;
+        border-left: 4px solid;
+    }
+
+    .callout-title {
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+
+    /* Callout type colors */
+    .callout[data-callout="note"] {
+        background-color: #d1fae5 !important;
+        border-left-color: #10b981 !important;
+    }
+
+    .callout[data-callout="note"] .callout-title {
+        color: #000000 !important;
+    }
+
+    .callout[data-callout="note"] .callout-icon {
+        color: #10b981 !important;
+    }
+
+    .callout[data-callout="tip"] {
+        background-color: rgba(16, 185, 129, 0.1);
+        border-left-color: #10b981;
+    }
+
+    .callout[data-callout="tip"] .callout-title {
+        color: #047857;
+    }
+
+    .callout[data-callout="warning"] {
+        background-color: rgba(245, 158, 11, 0.1);
+        border-left-color: #f59e0b;
+    }
+
+    .callout[data-callout="warning"] .callout-title {
+        color: #b45309;
+    }
+
+    .callout[data-callout="caution"] {
+        background-color: rgba(239, 68, 68, 0.1);
+        border-left-color: #ef4444;
+    }
+
+    .callout[data-callout="caution"] .callout-title {
+        color: #b91c1c;
+    }
+
+    .callout[data-callout="important"] {
+        background-color: rgba(139, 92, 246, 0.1);
+        border-left-color: #8b5cf6;
+    }
+
+    .callout[data-callout="important"] .callout-title {
+        color: #6d28d9;
+    }
+
+    .callout[data-callout="info"] {
+        background-color: rgba(6, 182, 212, 0.1);
+        border-left-color: #06b6d4;
+    }
+
+    .callout[data-callout="info"] .callout-title {
+        color: #0e7490;
+    }
+
+    .callout[data-callout="success"] {
+        background-color: rgba(34, 197, 94, 0.1);
+        border-left-color: #22c55e;
+    }
+
+    .callout[data-callout="success"] .callout-title {
+        color: #15803d;
+    }
+
+    /* Subtitle: minimalist date block */
+    /* Center only when the first paragraph is italic-only */
+    article>p:first-of-type:has(> em:only-child) {
+        text-align: center;
+    }
+
+    article>p:first-of-type>em:only-child {
+        display: inline-block;
+        max-width: 100%;
+        color: #9ca3af !important;
+        /* gray-400 */
+        margin-top: -0.125rem;
+        margin-bottom: 0.25rem;
+        font-style: italic;
+        font-size: 0.9rem;
+        letter-spacing: 0.015em;
+        line-height: 1.65;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        /* allow breaking long tokens */
+        word-break: normal;
+        hyphens: auto;
+    }
 </style>
 
 <script src='https://cdn.tailwindcss.com'></script>
 
+<style>
+    /* ===== Gallery Modal ===== */
+    #modal-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.55);
+        backdrop-filter: blur(3px);
+        -webkit-backdrop-filter: blur(3px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 50;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.25s ease;
+    }
+
+    #modal-overlay.open {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    #modal-card {
+        background: #fff;
+        border-radius: 14px;
+        width: min(95vw, 1600px);
+        height: 78vh;
+        min-height: 380px;
+        display: flex;
+        position: relative;
+        transform: translateY(100%);
+        transition: transform 0.3s cubic-bezier(0.32, 0.72, 0, 1);
+        overflow: hidden;
+    }
+
+    #modal-overlay.open #modal-card {
+        transform: translateY(0);
+    }
+
+    #modal-close {
+        position: absolute;
+        top: 10px;
+        right: 12px;
+        z-index: 20;
+        background: rgba(255, 255, 255, 0.9);
+        border: none;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+        line-height: 1;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #374151;
+        transition: background 0.15s;
+    }
+
+    #modal-close:hover {
+        background: #f3f4f6;
+    }
+
+    #modal-left {
+        position: relative;
+        width: 50%;
+        background: #1a1a1a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    #modal-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: opacity 0.18s ease;
+    }
+
+    .modal-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(255, 255, 255, 0.85);
+        border: none;
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 5;
+        transition: background 0.15s;
+        padding: 8px;
+    }
+
+    .modal-arrow:hover {
+        background: #fff;
+    }
+
+    .modal-arrow img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    #modal-prev {
+        left: 10px;
+    }
+
+    #modal-next {
+        right: 10px;
+    }
+
+    #modal-dots {
+        position: absolute;
+        bottom: 12px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 6px;
+        z-index: 5;
+    }
+
+    .modal-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.4);
+        border: 1.5px solid rgba(255, 255, 255, 0.7);
+        cursor: pointer;
+        padding: 0;
+        transition: background 0.15s, transform 0.15s;
+    }
+
+    .modal-dot.active {
+        background: #fff;
+        transform: scale(1.35);
+    }
+
+    #modal-right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 24px 22px 20px;
+        min-width: 0;
+    }
+
+    #modal-title {
+        font-family: 'Outfit', sans-serif;
+        font-size: 1.44rem;
+        font-variation-settings: 'wght' 400;
+        margin: 0 36px 14px 0;
+        color: #111827;
+    }
+
+    #modal-tabs {
+        display: flex;
+        border-bottom: 1px solid #e5e7eb;
+        margin-bottom: 14px;
+        flex-shrink: 0;
+    }
+
+    .tab-btn {
+        background: none;
+        border: none;
+        padding: 7px 14px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.8rem;
+        cursor: pointer;
+        color: #9ca3af;
+        border-bottom: 2px solid transparent;
+        margin-bottom: -1px;
+        transition: color 0.15s, border-color 0.15s;
+    }
+
+    .tab-btn:hover {
+        color: #4b5563;
+    }
+
+    .tab-btn.active {
+        color: #111827;
+        border-bottom-color: #dc2626;
+    }
+
+    #modal-tab-content {
+        flex: 1;
+        overflow-y: auto;
+        font-size: 1.09rem;
+        line-height: 1.65;
+        color: #4b5563;
+    }
+
+    .tab-links {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding-top: 2px;
+    }
+
+    .tab-link-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #dc2626;
+        text-decoration: none;
+        font-size: 1rem;
+        padding: 10px 14px;
+        border: 1px solid #fca5a5;
+        border-radius: 8px;
+        transition: background 0.15s;
+    }
+
+    .tab-link-item::after {
+        content: '↗';
+        font-size: 0.875rem;
+        opacity: 0.6;
+        flex-shrink: 0;
+        margin-left: 8px;
+    }
+
+    .tab-link-item:hover {
+        background: #fef2f2;
+        text-decoration: none;
+    }
+
+    /* ===== Gallery Grid ===== */
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    @media (min-width: 640px) {
+        .gallery-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (min-width: 768px) {
+        .gallery-grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .gallery-grid {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+
+    /* ===== Project Cards ===== */
+    .project-card {
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        cursor: pointer;
+        aspect-ratio: 1;
+        background: #f3f4f6;
+        transform: translateZ(0);
+        will-change: transform;
+    }
+
+    .project-card>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .project-card:hover>img {
+        transform: scale(1.04);
+    }
+
+    /* ===== Mobile ===== */
+    @media (max-width: 768px) {
+        #modal-overlay {
+            align-items: flex-end;
+        }
+
+        #modal-card {
+            width: 100vw;
+            max-width: 100vw;
+            height: 100vh;
+            margin-bottom: 0;
+            border-radius: 0;
+            flex-direction: column;
+        }
+
+        #modal-left {
+            width: 100%;
+            height: 45%;
+            border-radius: 0;
+        }
+
+        #modal-right {
+            width: 100%;
+            height: 55%;
+            padding: 14px 16px 12px;
+        }
+
+        #modal-title {
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+        }
+    }
+</style>
 
   <head-main></head-main>
   <link rel='stylesheet' href='_emanote-static/stork/flat.css' />
@@ -239,91 +712,64 @@
   
     <div class='min-h-screen flex flex-col items-center'>
 
-      
-      
-      
-      
-      
+      <main class='flex-1 mb-16 w-full'>
+        <div class='gallery-grid'>
 
-      <!-- Main Content -->
-      <main class='flex-1 mb-16'>
-        <div class='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 w-full'>
-
-          <div class='group relative w-full overflow-hidden rounded-lg cursor-pointer' onclick="cycleImage(this, ['images/gallery/BEAN25.webp', 'images/gallery/BEAN25_2.webp'])">
-            <img src='images/gallery/BEAN25.webp' alt='BEAN 25' class='w-full h-auto object-cover rounded-lg shadow-md transition-opacity duration-300 opacity-100
-        group-hover:opacity-20' loading='lazy' />
-            <div class='absolute inset-0 flex items-center justify-center bg-white/80 text-gray-800 text-center
-        p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-lg'>
-              <p>1833 (2025)</p>
-            </div>
-            <img src='images/forward-60.png' alt='More' class='absolute bottom-2 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100
-        transition-opacity duration-300 w-6 h-6' />
+          <div class='project-card' onclick='openModal(this)' data-title='1833 // REEFSCAPE (2025)' data-images='["images/gallery/BEAN25.webp","images/gallery/BEAN25_2.webp"]' data-description="Team 1833's robot for the 2025 REEFSCAPE season." data-links='[{"label":"CAD (Onshape)","url":"https://cad.onshape.com/documents/7352031dc691f38153ccf1cc/w/e72cda79ddd30179206cdaa4/e/1f98def145668d8737add48f?renderMode=0&amp;uiState=6a0a3d80643f5ee15ada0891"}, {"label":"Statbotics", "url":"https://www.statbotics.io/team/1833/2025"}]'>
+            <img src='images/gallery/BEAN25.webp' alt='1833 2025' loading='lazy' />
           </div>
 
-          <div class='group relative w-full overflow-hidden rounded-lg cursor-pointer'>
-            <img src='images/gallery/OTTO24B.webp' alt='OTTO 24B' class='w-full h-auto object-cover rounded-lg shadow-md transition-opacity duration-300 opacity-100
-        group-hover:opacity-20' loading='lazy' />
-            <div class='absolute inset-0 flex items-center justify-center bg-white/80 text-gray-800 text-center
-        p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-lg'>
-              <p>1746 (2024 v2)</p>
-            </div>
+          <div class='project-card' onclick='openModal(this)' data-title='1746 // CRESCENDO (2024 v2)' data-images='["images/gallery/OTTO24B.webp"]' data-description="Team 1746's second robot for the 2024 CRESCENDO season." data-links='[]'>
+            <img src='images/gallery/OTTO24B.webp' alt='1746 2024 v2' loading='lazy' />
           </div>
 
-          <div class='group relative w-full overflow-hidden rounded-lg cursor-pointer'>
-            <img src='images/gallery/OTTO24A.webp' alt='OTTO 24A' class='w-full h-auto object-cover rounded-lg shadow-md transition-opacity duration-300 opacity-100
-        group-hover:opacity-20' loading='lazy' />
-            <div class='absolute inset-0 flex items-center justify-center bg-white/80 text-gray-800 text-center
-        p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-lg'>
-              <p>1746 (2024)</p>
-            </div>
+          <div class='project-card' onclick='openModal(this)' data-title='1746 // CRESCENDO (2024)' data-images='["images/gallery/OTTO24A.webp"]' data-description="Team 1746's first robot for the 2024 CRESCENDO season." data-links='[]'>
+            <img src='images/gallery/OTTO24A.webp' alt='1746 2024' loading='lazy' />
           </div>
 
-          <div class='group relative w-full overflow-hidden rounded-lg cursor-pointer'>
-            <img src='images/gallery/OTTO23B.webp' alt='OTTO 23B' class='w-full h-auto object-cover rounded-lg shadow-md transition-opacity duration-300 opacity-100
-        group-hover:opacity-20' loading='lazy' />
-            <div class='absolute inset-0 flex items-center justify-center bg-white/80 text-gray-800 text-center
-        p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-lg'>
-              <p>1746 (2023 v2)</p>
-            </div>
+          <div class='project-card' onclick='openModal(this)' data-title='1746 // CHARGED UP (2023 v2)' data-images='["images/gallery/OTTO23B.webp"]' data-description="Team 1746's second robot for the 2023 CHARGED UP season." data-links='[]'>
+            <img src='images/gallery/OTTO23B.webp' alt='1746 2023 v2' loading='lazy' />
           </div>
 
-          <div class='group relative w-full overflow-hidden rounded-lg cursor-pointer'>
-            <img src='images/gallery/OTTO23A.webp' alt='OTTO 23A' class='w-full h-auto object-cover rounded-lg shadow-md transition-opacity duration-300 opacity-100
-        group-hover:opacity-20' loading='lazy' />
-            <div class='absolute inset-0 flex items-center justify-center bg-white/80 text-gray-800 text-center
-        p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-lg'>
-              <p>1746 (2023)</p>
-            </div>
+          <div class='project-card' onclick='openModal(this)' data-title='1746 // CHARGED UP (2023)' data-images='["images/gallery/OTTO23A.webp"]' data-description="Team 1746's first robot for the 2023 CHARGED UP season." data-links='[]'>
+            <img src='images/gallery/OTTO23A.webp' alt='1746 2023' loading='lazy' />
           </div>
 
-          <div class='group relative w-full overflow-hidden rounded-lg cursor-pointer'>
-            <img src='images/gallery/OTTO17.webp' alt='OTTO 17' class='w-full h-auto object-cover rounded-lg shadow-md transition-opacity duration-300 opacity-100
-        group-hover:opacity-20' loading='lazy' />
-            <div class='absolute inset-0 flex items-center justify-center bg-white/80 text-gray-800 text-center
-        p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-lg'>
-              <p>1746 (2017)</p>
-            </div>
+          <div class='project-card' onclick='openModal(this)' data-title='1746 // STEAMWORKS (2017)' data-images='["images/gallery/OTTO17.webp"]' data-description="Team 1746's robot for the 2017 STEAMWORKS season." data-links='[]'>
+            <img src='images/gallery/OTTO17.webp' alt='1746 2017' loading='lazy' />
           </div>
 
-          <div class='group relative w-full overflow-hidden rounded-lg cursor-pointer'>
-            <img src='images/gallery/OTTO16B.webp' alt='OTTO 16B' class='w-full h-auto object-cover rounded-lg shadow-md transition-opacity duration-300 opacity-100
-        group-hover:opacity-20' loading='lazy' />
-            <div class='absolute inset-0 flex items-center justify-center bg-white/80 text-gray-800 text-center
-        p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-lg'>
-              <p>1746 (2016 v2)</p>
-            </div>
+          <div class='project-card' onclick='openModal(this)' data-title='1746 // STRONGHOLD (2016 v2)' data-images='["images/gallery/OTTO16B.webp"]' data-description="Team 1746's offseason robot for the 2016 STRONGHOLD season." data-links='[]'>
+            <img src='images/gallery/OTTO16B.webp' alt='1746 2016 v2' loading='lazy' />
           </div>
 
-          <div class='group relative w-full overflow-hidden rounded-lg cursor-pointer'>
-            <img src='images/gallery/OTTO16A.webp' alt='OTTO 16A' class='w-full h-auto object-cover rounded-lg shadow-md transition-opacity duration-300 opacity-100
-        group-hover:opacity-20' loading='lazy' />
-            <div class='absolute inset-0 flex items-center justify-center bg-white/80 text-gray-800 text-center
-        p-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-lg'>
-              <p>1746 (2016)</p>
-            </div>
+          <div class='project-card' onclick='openModal(this)' data-title='1746 // STRONGHOLD (2016)' data-images='["images/gallery/OTTO16A.webp"]' data-description="Team 1746's robot for the 2016 STRONGHOLD season." data-links='[]'>
+            <img src='images/gallery/OTTO16A.webp' alt='1746 2016' loading='lazy' />
           </div>
+
         </div>
       </main>
+
+      <!-- Modal -->
+      <div id='modal-overlay' onclick='handleOverlayClick(event)'>
+        <div id='modal-card'>
+          <button id='modal-close' onclick='closeModal()'>✕</button>
+          <div id='modal-left'>
+            <img id='modal-img' src alt />
+            <button class='modal-arrow' id='modal-prev' onclick='stepSlide(-1)'><img src='images/back-60.png' alt='Previous' /></button>
+            <button class='modal-arrow' id='modal-next' onclick='stepSlide(1)'><img src='images/forward-60.png' alt='Next' /></button>
+            <div id='modal-dots'></div>
+          </div>
+          <div id='modal-right'>
+            <h2 id='modal-title'></h2>
+            <div id='modal-tabs'>
+              <button class='tab-btn active' onclick="switchTab(this,'description')">Description</button>
+              <button class='tab-btn' onclick="switchTab(this,'links')">Links</button>
+            </div>
+            <div id='modal-tab-content'></div>
+          </div>
+        </div>
+      </div>
 
       <!-- Footer -->
       <footer class='w-full bg-white shadow-md fixed bottom-0 left-0 z-10 flex justify-center items-center h-12 space-x-4'>
@@ -331,18 +777,99 @@
           <img src='images/back-60.png' class='w-6 h-6' alt='Back' />
         </a>
         <a href='index' class='rounded-lg hover:shadow-md p-1 bg-gray-200 hover:bg-gray-300 flex items-center justify-center w-10 h-10'>
-          <img src='images/home-60.png' class='w-6 h-6' />
+          <img src='images/home-60.png' class='w-6 h-6' alt='Home' />
         </a>
       </footer>
 
       <script>
-        function cycleImage(container, images) {
-          const img = container.querySelector('img');
-          let currentIndex = images.findIndex(src => img.src.includes(src.split('/').pop()));
-          if (currentIndex === -1) currentIndex = 0;
-          const nextIndex = (currentIndex + 1) % images.length;
-          img.src = images[nextIndex];
+        let _images = [], _slide = 0, _tabs = {};
+
+        function openModal(card) {
+          _images = JSON.parse(card.dataset.images);
+          _tabs = {
+            description: card.dataset.description || '',
+            links: JSON.parse(card.dataset.links || '[]')
+          };
+
+          document.getElementById('modal-title').textContent = card.dataset.title;
+
+          const dotsEl = document.getElementById('modal-dots');
+          dotsEl.innerHTML = '';
+          if (_images.length > 1) {
+            _images.forEach((_, i) => {
+              const d = document.createElement('button');
+              d.className = 'modal-dot' + (i === 0 ? ' active' : '');
+              d.onclick = e => { e.stopPropagation(); goToSlide(i); };
+              dotsEl.appendChild(d);
+            });
+          }
+
+          const multi = _images.length > 1;
+          document.getElementById('modal-prev').style.display = multi ? 'flex' : 'none';
+          document.getElementById('modal-next').style.display = multi ? 'flex' : 'none';
+
+          const tabs = document.querySelectorAll('.tab-btn');
+          tabs.forEach(t => t.classList.remove('active'));
+          tabs[0].classList.add('active');
+
+          goToSlide(0);
+          renderTab('description');
+          document.getElementById('modal-overlay').classList.add('open');
+          document.body.style.overflow = 'hidden';
         }
+
+        function closeModal() {
+          document.getElementById('modal-overlay').classList.remove('open');
+          document.body.style.overflow = '';
+        }
+
+        function handleOverlayClick(e) {
+          if (e.target === document.getElementById('modal-overlay')) closeModal();
+        }
+
+        function goToSlide(i) {
+          _slide = i;
+          const img = document.getElementById('modal-img');
+          const preload = new Image();
+          preload.onload = () => { img.src = preload.src; img.style.opacity = '1'; };
+          preload.onerror = () => { img.src = _images[i]; img.style.opacity = '1'; };
+          img.style.opacity = '0';
+          preload.src = _images[i];
+          document.querySelectorAll('.modal-dot').forEach((d, j) => d.classList.toggle('active', j === i));
+        }
+
+        function stepSlide(dir) {
+          goToSlide((_slide + dir + _images.length) % _images.length);
+        }
+
+        function switchTab(btn, name) {
+          document.querySelectorAll('.tab-btn').forEach(t => t.classList.remove('active'));
+          btn.classList.add('active');
+          renderTab(name);
+        }
+
+        function renderTab(name) {
+          const el = document.getElementById('modal-tab-content');
+          if (name === 'links') {
+            if (_tabs.links.length === 0) {
+              el.innerHTML = '<p style="color:#9ca3af;font-size:1.06rem;">No links added yet.</p>';
+            } else {
+              el.innerHTML = '<div class="tab-links">' +
+                _tabs.links.map(l => `<a class="tab-link-item" href="${l.url}" target="_blank" rel="noopener">${l.label}</a>`).join('') +
+                '</div>';
+            }
+          } else {
+            el.textContent = _tabs[name] || '';
+          }
+        }
+
+        document.addEventListener('keydown', e => {
+          const open = document.getElementById('modal-overlay').classList.contains('open');
+          if (!open) return;
+          if (e.key === 'Escape') closeModal();
+          if (e.key === 'ArrowLeft') stepSlide(-1);
+          if (e.key === 'ArrowRight') stepSlide(1);
+        });
       </script>
 
     </div>
