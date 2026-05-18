@@ -31,7 +31,7 @@
 
 
   
-  <link href='tailwind.css?instanceId=b8653ced-e471-4e4d-9042-2a1bb4408768' rel='stylesheet' type='text/css' />
+  <link href='tailwind.css?instanceId=ed3c6fb7-67a6-41dc-a0bd-6d247fa2505f' rel='stylesheet' type='text/css' />
 
   <style>
     /* Heist error element */
@@ -358,6 +358,22 @@
         justify-content: center;
         overflow: hidden;
         flex-shrink: 0;
+    }
+
+    #modal-left.loading::after {
+        content: '';
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        border: 3px solid rgba(255, 255, 255, 0.2);
+        border-top-color: #fff;
+        border-radius: 50%;
+        animation: modal-spin 0.7s linear infinite;
+        pointer-events: none;
+    }
+
+    @keyframes modal-spin {
+        to { transform: rotate(360deg); }
     }
 
     #modal-img {
@@ -811,10 +827,12 @@
         function goToSlide(i) {
           _slide = i;
           const img = document.getElementById('modal-img');
+          const left = document.getElementById('modal-left');
           const preload = new Image();
-          preload.onload = () => { img.src = preload.src; img.style.opacity = '1'; };
-          preload.onerror = () => { img.src = _images[i]; img.style.opacity = '1'; };
+          preload.onload = () => { img.src = preload.src; img.style.opacity = '1'; left.classList.remove('loading'); };
+          preload.onerror = () => { img.src = _images[i]; img.style.opacity = '1'; left.classList.remove('loading'); };
           img.style.opacity = '0';
+          left.classList.add('loading');
           preload.src = _images[i];
           document.querySelectorAll('.modal-dot').forEach((d, j) => d.classList.toggle('active', j === i));
         }
