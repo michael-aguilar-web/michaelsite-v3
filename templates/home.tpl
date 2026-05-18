@@ -26,7 +26,7 @@
         <a href=gallery class="${cardSmallClass} w-12 p-2" data-label="gallery" aria-label="gallery">
           <img src="images/photo-60.png">
         </a>
-        <a href="https://www.youtube.com/@michael.aguilar" class="${cardSmallClass} w-12 p-2" data-label="youtube"
+        <a href="https://www.youtube.com/@michael_aguilar" class="${cardSmallClass} w-12 p-2" data-label="youtube"
           aria-label="youtube">
           <img src="images/youtube-60.png">
         </a>
