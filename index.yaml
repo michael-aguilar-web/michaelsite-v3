@@ -16,7 +16,7 @@ template:
   sidebar:
     collapsed: true
   toc:
-    enable: false
+    enable: true
 
 emanote:
   folder-folgezettel: true;
