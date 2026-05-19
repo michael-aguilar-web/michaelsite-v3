@@ -22,7 +22,7 @@ jobs:
 
       - name: Build the website (Nix) 🔧
         run: |
-          nix build -j 4
+          nix build -j 4 --accept-flake-config
 
       - name: Deploy to gh-pages 🚀
         uses: peaceiris/actions-gh-pages@v3

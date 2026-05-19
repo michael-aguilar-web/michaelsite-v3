@@ -18,6 +18,9 @@ jobs:
       - name: Update flake.lock
         uses: DeterminateSystems/update-flake-lock@v10
         with:
+          # Only update non-emanote inputs; emanote is pinned to 1.4.0.0 in flake.nix.
+          inputs: |
+            flake-parts
           pr-title: "Update flake.lock" # Title of PR to be created
           pr-labels: |                  # Labels to be set on the PR
             automated

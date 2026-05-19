@@ -1,13 +1,14 @@
 {
   nixConfig = {
-    extra-substituters = "https://srid.cachix.org";
-    extra-trusted-public-keys = "srid.cachix.org-1:3clnql5gjbJNEvhA/WQp7nrZlBptwpXnUk6JAv8aB2M=";
+    extra-substituters = "https://srid.cachix.org https://cache.garnix.io";
+    extra-trusted-public-keys = "srid.cachix.org-1:3clnql5gjbJNEvhA/WQp7nrZlBptwpXnUk6JAv8aB2M= cache.garnix.io:CTFPyKSLcx5RMJKfLo5EEPUObbA78b0YQ2DTCJXqr9g=";
   };
 
   inputs = {
-    emanote.url = "github:srid/emanote";
+    # Pinned to release tag — do not float to master (see update-flake-lock workflow).
+    emanote.url = "github:srid/emanote/1.4.0.0";
     nixpkgs.follows = "emanote/nixpkgs";
-    flake-parts.url = "github:hercules-ci/flake-parts";
+    flake-parts.follows = "emanote/flake-parts";
   };
 
   outputs = inputs@{ self, flake-parts, nixpkgs, ... }:
@@ -16,14 +17,14 @@
       imports = [ inputs.emanote.flakeModule ];
       perSystem = { self', pkgs, system, ... }: {
         emanote = {
-          # By default, the 'emanote' flake input is used.
-          # package = inputs.emanote.packages.${system}.default;
-          sites."default" = {
-            layers = [ ./. ];
-            layersString = [ "." ];
-            # port = 8080;
-            baseUrl = "/"; # Change to "/" (or remove it entirely) if using CNAME
-            prettyUrls = true;
+          sites.default = {
+            layers = [{ path = ./.; pathString = "."; }];
+            extraConfig = {
+              template = {
+                baseUrl = "/";
+                urlStrategy = "pretty";
+              };
+            };
           };
         };
         devShells.default = pkgs.mkShell {

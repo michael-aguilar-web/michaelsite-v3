@@ -3,7 +3,8 @@ set -e
 
 PORT=${PORT:-8002}                  # change to 8001 in the other project
 NAME=${NAME:-emanote-michaelsite}
-# Official image with ENTRYPOINT=emanote; pin digest (override with EMANOTE_IMAGE=...).
+# Official image with ENTRYPOINT=emanote; pin digest to match production (Emanote 1.4.0.0).
+# Production uses github:srid/emanote/1.4.0.0 via flake.lock — keep these in sync.
 EMANOTE_IMAGE=${EMANOTE_IMAGE:-ghcr.io/srid/emanote@sha256:17489aac00b847a0c98256ec93cafa17cd244414ad8ef3514bd81f1c35e8ab2d}
 
 need_docker() {
