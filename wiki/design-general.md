@@ -50,7 +50,7 @@ aka the driver biased golden rules
         - Simple architecture means it’s done faster which means it can be programmed earlier
     - The advent of April tags means a lot of actions that were once driver skill checks are now just programming automation skill checks
 
-## design phase specific wisdom
+## design wisdom (by phase)
 
 ### ideation
 

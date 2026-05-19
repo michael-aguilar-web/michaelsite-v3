@@ -37,7 +37,6 @@
 
       </div>
 
-      <!-- Secret wiki row — revealed by long press on avatar -->
       <div id="secret-row" style="opacity:0;pointer-events:none;" class="flex flex-row justify-center">
         <a href="wiki" class="${cardSmallClass} w-12 p-2" data-label="wiki" aria-label="wiki">
           <img src="images/open-book-60.png">
@@ -145,7 +144,7 @@
       })();
     </script>
 
-    <!-- Secret wiki long-press handler -->
+    <!-- Wiki long-press handler -->
     <script>
       (function () {
         const avatar = document.getElementById('avatar-img');
