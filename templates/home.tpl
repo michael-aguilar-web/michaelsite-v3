@@ -18,7 +18,7 @@
       </div>
 
       <!-- Footer -->
-      <div class="flex flex-row justify-center">
+      <div class="flex flex-row justify-center items-center w-full max-md:flex-wrap max-md:gap-4 max-md:px-6 max-md:[&>a]:m-0">
         <a href="mailto: michael.b.aguilar@gmail.com" class="${cardSmallClass} w-12 p-2" data-label="email"
           aria-label="email">
           <img src="images/email-60.png">
@@ -38,8 +38,8 @@
           aria-label="linkedin">
           <img src="images/linkedin-60.png">
         </a>
-
       </div>
+      
 
       <div id="secret-row" style="opacity:0;pointer-events:none;" class="flex flex-row justify-center">
         <a href="wiki" class="${cardSmallClass} w-12 p-2" data-label="wiki" aria-label="wiki">

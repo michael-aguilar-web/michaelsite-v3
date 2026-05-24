@@ -1,11 +1,11 @@
 <apply template="base">
   <bind tag="body-main">
-    <div class="min-h-screen flex flex-col justify-center items-center">
+    <div class="min-h-screen flex flex-col items-center md:justify-center justify-start">
 
-      <bind tag="galleryClass">grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-4 justify-items-center</bind>
+      <bind tag="galleryClass">grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-md:gap-4 p-4 max-md:justify-items-stretch justify-items-center w-full max-w-full</bind>
 
       <!-- Main Content -->
-      <main class="flex-1 w-full flex justify-center items-center">
+      <main class="flex-1 w-full max-md:mb-16 flex justify-center items-start md:items-center">
         <div class="${galleryClass}">
 
           <a href="gallery-frc" class="gallery-tile" data-title="FRC Robots"
