@@ -30,6 +30,10 @@
           aria-label="youtube">
           <img src="images/youtube-60.png">
         </a>
+        <a href="https://www.instagram.com/michael_aguilar_frc" class="${cardSmallClass} w-12 p-2"
+          data-label="frc instagram" aria-label="frc instagram">
+          <img src="images/instagram-60.png">
+        </a>
         <a href="https://www.linkedin.com/in/michaelbaguilar/" class="${cardSmallClass} w-12 p-2" data-label="linkedin"
           aria-label="linkedin">
           <img src="images/linkedin-60.png">

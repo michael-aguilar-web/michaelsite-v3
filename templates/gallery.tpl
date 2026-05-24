@@ -2,32 +2,26 @@
   <bind tag="body-main">
     <div class="min-h-screen flex flex-col justify-center items-center">
 
-      <bind tag="galleryClass">grid grid-cols-1 sm:grid-cols-2 gap-8 p-4</bind>
-      <bind tag="imageContainer">group relative w-64 h-64 overflow-hidden rounded-lg cursor-pointer transform
-        transition-transform duration-300 hover:scale-105</bind>
-      <bind tag="imageClass">w-full h-full object-cover rounded-lg opacity-50</bind>
-      <bind tag="titleOverlay">absolute inset-0 flex items-center justify-center text-white text-2xl font-semibold
-      </bind>
+      <bind tag="galleryClass">grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-4 justify-items-center</bind>
 
       <!-- Main Content -->
       <main class="flex-1 w-full flex justify-center items-center">
         <div class="${galleryClass}">
 
-          <!-- FRC Projects Tile -->
-          <div class="${imageContainer}">
-            <a href="gallery-frc" class="block w-full h-full">
-              <img src="images/gallery/BEAN25.webp" alt="FRC Projects" class="${imageClass}" loading="lazy">
-              <div class="${titleOverlay}">FRC Robots</div>
-            </a>
-          </div>
+          <a href="gallery-frc" class="gallery-tile" data-title="FRC Robots"
+            data-slideshow='["images/gallery/BEAN26.webp","images/gallery/BEAN25.webp","images/gallery/OTTO24B.webp","images/gallery/OTTO24A.webp"]'>
+            <img src="images/gallery/BEAN25.webp" alt="FRC Robots" loading="lazy">
+          </a>
 
-          <!-- 3D Prints Tile -->
-          <div class="${imageContainer}">
-            <a href="gallery-3dp" class="block w-full h-full">
-              <img src="images/gallery/poopchute_5.webp" alt="3D Prints" class="${imageClass}" loading="lazy">
-              <div class="${titleOverlay}">Simple 3D Prints</div>
-            </a>
-          </div>
+          <a href="gallery-3dp" class="gallery-tile" data-title="Simple 3D Prints"
+            data-slideshow='["images/gallery/fanfilter_1.webp","images/gallery/poopchute_1.webp","images/gallery/clampcase_1.webp"]'>
+            <img src="images/gallery/fanfilter_1.webp" alt="3D Prints" loading="lazy">
+          </a>
+
+          <a href="gallery-apps" class="gallery-tile" data-title="Custom Apps"
+            data-slideshow='["images/gallery/overlay_1.webp"]'>
+            <img src="images/gallery/overlay_1.webp" alt="Custom Apps" loading="lazy">
+          </a>
         </div>
       </main>
 

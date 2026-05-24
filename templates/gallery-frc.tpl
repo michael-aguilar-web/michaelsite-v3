@@ -5,53 +5,79 @@
       <main class="flex-1 mb-16 w-full">
         <div class="gallery-grid">
 
-          <div class="project-card" onclick="openModal(this)" data-title="1833 // REEFSCAPE (2025)"
-            data-images='["images/gallery/BEAN25.webp","images/gallery/BEAN25_2.webp"]'
-            data-description="Team 1833's robot for the 2025 REEFSCAPE season."
-            data-links='[{"label":"CAD (Onshape)","url":"https://cad.onshape.com/documents/7352031dc691f38153ccf1cc/w/e72cda79ddd30179206cdaa4/e/1f98def145668d8737add48f?renderMode=0&uiState=6a0a3d80643f5ee15ada0891"}, {"label":"Statbotics", "url":"https://www.statbotics.io/team/1833/2025"}]'>
-            <img src="images/gallery/BEAN25.webp" alt="1833 2025" loading="lazy">
+          <div class="project-card" onclick="openModal(this)" data-title="Clover // 1833 2026"
+            data-images='["images/gallery/BEAN26.webp", "images/gallery/BEAN26_2.webp", "images/gallery/BEAN26_3.webp"]'
+            data-description="Team 1833's robot Clover, built for 
+            the 2026 REBUILT season."
+            data-links='[{"label": "Match Video (YouTube)", "url":"https://www.youtube.com/watch?v=mKHfhSehWHg"}, {"label":"Statbotics", "url":"https://www.statbotics.io/team/1833/2026"}]'>
+            <img src="images/gallery/BEAN26.webp" alt="1833 2026" loading="lazy">
+            <div class="project-info-body">
+              <p><strong>Accomplishments:</strong></p>
+              <ul>
+                <li>- Finished the season ranked 35th worldwide (out of 3724)</li>
+                <li>- World Championship Division Finalists (round of 16)</li>
+                <li>- State Championship Winners, 2x Qualifier Winners</li>
+              </ul>
+            </div>
           </div>
 
-          <div class="project-card" onclick="openModal(this)" data-title="1746 // CRESCENDO (2024 v2)"
+          <div class="project-card" onclick="openModal(this)" data-title="Sprout // 1833 2025"
+            data-images='["images/gallery/BEAN25.webp","images/gallery/BEAN25_2.webp"]'
+            data-description="Team 1833's robot Sprout, built for the 2025 REEFSCAPE season."
+            data-links='[{"label":"Public CAD Release (Onshape)","url":"https://cad.onshape.com/documents/7352031dc691f38153ccf1cc/w/e72cda79ddd30179206cdaa4/e/1f98def145668d8737add48f?renderMode=0&uiState=6a0a3d80643f5ee15ada0891"}, {"label":"Match Video (YouTube)", "url":"https://www.youtube.com/watch?v=7Uyh4NzLGgQ"}, {"label":"Statbotics", "url":"https://www.statbotics.io/team/1833/2025"}]'>
+            <img src="images/gallery/BEAN25.webp" alt="1833 2025" loading="lazy">
+            <div class="project-info-body">
+              <p><strong>Accomplishments:</strong></p>
+              <ul>
+                <li>- Finished the season ranked 131st worldwide (out of 3702)</li>
+                <li>- State Championship Winners, Gwinnett Qualifier Winners</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="project-card" onclick="openModal(this)" data-title="OTTOTUNE // 1746 2024 v2"
             data-images='["images/gallery/OTTO24B.webp"]'
-            data-description="Team 1746's second robot for the 2024 CRESCENDO season." data-links='[]'>
+            data-description="Team 1746's second robot, OTTOTUNE, rebuilt during the 2024 CRESCENDO season."
+            data-links='[]'>
             <img src="images/gallery/OTTO24B.webp" alt="1746 2024 v2" loading="lazy">
           </div>
 
-          <div class="project-card" onclick="openModal(this)" data-title="1746 // CRESCENDO (2024)"
+          <div class="project-card" onclick="openModal(this)" data-title="OTTOTUNE // 1746 2024 v1"
             data-images='["images/gallery/OTTO24A.webp"]'
-            data-description="Team 1746's first robot for the 2024 CRESCENDO season." data-links='[]'>
-            <img src="images/gallery/OTTO24A.webp" alt="1746 2024" loading="lazy">
+            data-description="Team 1746's first robot, OTTOTUNE, built for the 2024 CRESCENDO season." data-links='[]'>
+            <img src="images/gallery/OTTO24A.webp" alt="1746 2024 v1" loading="lazy">
           </div>
 
-          <div class="project-card" onclick="openModal(this)" data-title="1746 // CHARGED UP (2023 v2)"
+          <div class="project-card" onclick="openModal(this)" data-title="Low Calorie // 1746 2023 v2"
             data-images='["images/gallery/OTTO23B.webp"]'
-            data-description="Team 1746's second robot for the 2023 CHARGED UP season." data-links='[]'>
+            data-description="Team 1746's second robot, Low Calorie, rebuilt during the 2023 CHARGED UP season."
+            data-links='[]'>
             <img src="images/gallery/OTTO23B.webp" alt="1746 2023 v2" loading="lazy">
           </div>
 
-          <div class="project-card" onclick="openModal(this)" data-title="1746 // CHARGED UP (2023)"
+          <div class="project-card" onclick="openModal(this)" data-title="Calorie // 1746 2023 v1"
             data-images='["images/gallery/OTTO23A.webp"]'
-            data-description="Team 1746's first robot for the 2023 CHARGED UP season." data-links='[]'>
-            <img src="images/gallery/OTTO23A.webp" alt="1746 2023" loading="lazy">
+            data-description="Team 1746's first robot, Calorie, built for the 2023 CHARGED UP season." data-links='[]'>
+            <img src="images/gallery/OTTO23A.webp" alt="1746 2023 v1" loading="lazy">
           </div>
 
-          <div class="project-card" onclick="openModal(this)" data-title="1746 // STEAMWORKS (2017)"
+          <div class="project-card" onclick="openModal(this)" data-title="OTTO 17 // 1746 2017"
             data-images='["images/gallery/OTTO17.webp"]'
-            data-description="Team 1746's robot for the 2017 STEAMWORKS season." data-links='[]'>
+            data-description="Team 1746's robot, OTTO 17, built for the 2017 STEAMWORKS season." data-links='[]'>
             <img src="images/gallery/OTTO17.webp" alt="1746 2017" loading="lazy">
           </div>
 
-          <div class="project-card" onclick="openModal(this)" data-title="1746 // STRONGHOLD (2016 v2)"
+          <div class="project-card" onclick="openModal(this)" data-title="Garbanzo Bot // 1746 2016 v2"
             data-images='["images/gallery/OTTO16B.webp"]'
-            data-description="Team 1746's offseason robot for the 2016 STRONGHOLD season." data-links='[]'>
+            data-description="Team 1746's robot, Garbanzo Bot, built for the 2016 STRONGHOLD offseason."
+            data-links='[]'>
             <img src="images/gallery/OTTO16B.webp" alt="1746 2016 v2" loading="lazy">
           </div>
 
-          <div class="project-card" onclick="openModal(this)" data-title="1746 // STRONGHOLD (2016)"
+          <div class="project-card" onclick="openModal(this)" data-title="OTTO 16 // 1746 2016 v1"
             data-images='["images/gallery/OTTO16A.webp"]'
-            data-description="Team 1746's robot for the 2016 STRONGHOLD season." data-links='[]'>
-            <img src="images/gallery/OTTO16A.webp" alt="1746 2016" loading="lazy">
+            data-description="Team 1746's robot, OTTO 16, built for the 2016 STRONGHOLD season." data-links='[]'>
+            <img src="images/gallery/OTTO16A.webp" alt="1746 2016 v1" loading="lazy">
           </div>
 
         </div>
@@ -71,8 +97,9 @@
           </div>
           <div id="modal-right">
             <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
             <div id="modal-tabs">
-              <button class="tab-btn active" onclick="switchTab(this,'description')">Description</button>
+              <button class="tab-btn active" onclick="switchTab(this,'info')">Info</button>
               <button class="tab-btn" onclick="switchTab(this,'links')">Links</button>
             </div>
             <div id="modal-tab-content"></div>
@@ -93,98 +120,6 @@
         </a>
       </footer>
 
-      <script>
-        let _images = [], _slide = 0, _tabs = {};
-
-        function openModal(card) {
-          _images = JSON.parse(card.dataset.images);
-          _tabs = {
-            description: card.dataset.description || '',
-            links: JSON.parse(card.dataset.links || '[]')
-          };
-
-          document.getElementById('modal-title').textContent = card.dataset.title;
-
-          const dotsEl = document.getElementById('modal-dots');
-          dotsEl.innerHTML = '';
-          if (_images.length > 1) {
-            _images.forEach((_, i) => {
-              const d = document.createElement('button');
-              d.className = 'modal-dot' + (i === 0 ? ' active' : '');
-              d.onclick = e => { e.stopPropagation(); goToSlide(i); };
-              dotsEl.appendChild(d);
-            });
-          }
-
-          const multi = _images.length > 1;
-          document.getElementById('modal-prev').style.display = multi ? 'flex' : 'none';
-          document.getElementById('modal-next').style.display = multi ? 'flex' : 'none';
-
-          const tabs = document.querySelectorAll('.tab-btn');
-          tabs.forEach(t => t.classList.remove('active'));
-          tabs[0].classList.add('active');
-
-          goToSlide(0);
-          renderTab('description');
-          document.getElementById('modal-overlay').classList.add('open');
-          document.body.style.overflow = 'hidden';
-        }
-
-        function closeModal() {
-          document.getElementById('modal-overlay').classList.remove('open');
-          document.body.style.overflow = '';
-        }
-
-        function handleOverlayClick(e) {
-          if (e.target === document.getElementById('modal-overlay')) closeModal();
-        }
-
-        function goToSlide(i) {
-          _slide = i;
-          const img = document.getElementById('modal-img');
-          const left = document.getElementById('modal-left');
-          const preload = new Image();
-          preload.onload = () => { img.src = preload.src; img.style.opacity = '1'; left.classList.remove('loading'); };
-          preload.onerror = () => { img.src = _images[i]; img.style.opacity = '1'; left.classList.remove('loading'); };
-          img.style.opacity = '0';
-          left.classList.add('loading');
-          preload.src = _images[i];
-          document.querySelectorAll('.modal-dot').forEach((d, j) => d.classList.toggle('active', j === i));
-        }
-
-        function stepSlide(dir) {
-          goToSlide((_slide + dir + _images.length) % _images.length);
-        }
-
-        function switchTab(btn, name) {
-          document.querySelectorAll('.tab-btn').forEach(t => t.classList.remove('active'));
-          btn.classList.add('active');
-          renderTab(name);
-        }
-
-        function renderTab(name) {
-          const el = document.getElementById('modal-tab-content');
-          if (name === 'links') {
-            if (_tabs.links.length === 0) {
-              el.innerHTML = '<p style="color:#9ca3af;font-size:1.06rem;">No links added yet.</p>';
-            } else {
-              el.innerHTML = '<div class="tab-links">' +
-                _tabs.links.map(l => `<a class="tab-link-item" href="${l.url}" target="_blank" rel="noopener">${l.label}</a>`).join('') +
-                '</div>';
-            }
-          } else {
-            el.textContent = _tabs[name] || '';
-          }
-        }
-
-        document.addEventListener('keydown', e => {
-          const open = document.getElementById('modal-overlay').classList.contains('open');
-          if (!open) return;
-          if (e.key === 'Escape') closeModal();
-          if (e.key === 'ArrowLeft') stepSlide(-1);
-          if (e.key === 'ArrowRight') stepSlide(1);
-        });
-      </script>
 
     </div>
   </bind>
