@@ -38,7 +38,7 @@
 
   
   
-  <link href='tailwind.css?instanceId=fcd2c2d0-ece8-41b5-b71c-0f404c285dc0' rel='stylesheet' type='text/css' />
+  <link href='tailwind.css?instanceId=debca0d1-abdb-475e-9751-a19ff6d3ec5f' rel='stylesheet' type='text/css' />
 
   <link rel='stylesheet' href='_emanote-static/fonts/maven-pro.css' />
 
@@ -665,6 +665,14 @@
         color: inherit;
     }
 
+    @media (max-width: 768px) {
+        .gallery-tile {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1;
+        }
+    }
+
     .project-card>img {
         position: relative;
         z-index: 0;
@@ -822,6 +830,13 @@
             opacity: 1;
             margin-top: 6px;
         }
+
+        .project-card-title,
+        .gallery-tile-title {
+            text-shadow:
+                0 1px 2px rgba(0, 0, 0, 0.75),
+                0 0 8px rgba(0, 0, 0, 0.45);
+        }
     }
 
     .info-detail {
@@ -876,6 +891,14 @@
         margin: 0;
     }
 
+    /* ===== Gallery index (mobile scroll) ===== */
+    @media (max-width: 768px) {
+        main:has(.gallery-tile):not(:has(.project-card)) {
+            display: block;
+            flex: none;
+        }
+    }
+
     /* ===== Mobile ===== */
     @media (max-width: 768px) {
         #modal-overlay {
@@ -892,7 +915,16 @@
             margin-bottom: 0;
             border-radius: 0;
             flex-direction: column;
-            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        #modal-close {
+            position: fixed;
+            top: max(10px, env(safe-area-inset-top));
+            right: 12px;
+            z-index: 60;
         }
 
         #modal-left {
@@ -905,19 +937,20 @@
 
         #modal-right {
             width: 100%;
-            flex: 1 1 0;
-            min-height: 0;
+            flex: 0 0 auto;
+            min-height: auto;
+            max-height: none;
             padding: 14px 16px 12px;
             padding-bottom: max(12px, env(safe-area-inset-bottom));
-            overflow: hidden;
+            overflow: visible;
             display: flex;
             flex-direction: column;
         }
 
         #modal-tab-content {
-            flex: 1 1 0;
-            min-height: 0;
-            overflow-y: auto;
+            flex: 0 0 auto;
+            min-height: auto;
+            overflow: visible;
         }
 
         #modal-title {
@@ -1146,11 +1179,15 @@
 
             goToSlide(0);
             renderTab('info');
+            const modalCard = document.getElementById('modal-card');
+            if (modalCard) modalCard.scrollTop = 0;
             document.getElementById('modal-overlay').classList.add('open');
             document.body.style.overflow = 'hidden';
         };
 
         window.closeModal = function () {
+            const modalCard = document.getElementById('modal-card');
+            if (modalCard) modalCard.scrollTop = 0;
             document.getElementById('modal-overlay').classList.remove('open');
             document.body.style.overflow = '';
             resetModalImagePanel();
@@ -1165,8 +1202,10 @@
             const isMobile = window.matchMedia('(max-width: 768px)').matches;
 
             if (isMobile) {
-                const cap = Math.min(window.innerWidth, window.innerHeight - 11 * rem);
-                return { maxWidth: window.innerWidth, maxHeight: cap };
+                return {
+                    maxWidth: window.innerWidth,
+                    maxHeight: Math.min(window.innerWidth, window.innerHeight * 0.72)
+                };
             }
 
             const viewportCap = window.innerHeight - 2 * rem;
@@ -1463,13 +1502,13 @@
 
 <body class='bg-gray-400 overflow-y-scroll'>
   
-    <div class='min-h-screen flex flex-col justify-center items-center'>
+    <div class='min-h-screen flex flex-col items-center md:justify-center justify-start'>
 
       
 
       <!-- Main Content -->
-      <main class='flex-1 w-full flex justify-center items-center'>
-        <div class='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-4 justify-items-center'>
+      <main class='flex-1 w-full max-md:mb-16 flex justify-center items-start md:items-center'>
+        <div class='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-md:gap-4 p-4 max-md:justify-items-stretch justify-items-center w-full max-w-full'>
 
           <a href='gallery-frc' class='gallery-tile' data-title='FRC Robots' data-slideshow='["images/gallery/BEAN26.webp","images/gallery/BEAN25.webp","images/gallery/OTTO24B.webp","images/gallery/OTTO24A.webp"]'>
             <img src='images/gallery/BEAN25.webp' alt='FRC Robots' loading='lazy' />
@@ -1479,7 +1518,7 @@
             <img src='images/gallery/fanfilter_1.webp' alt='3D Prints' loading='lazy' />
           </a>
 
-          <a href='gallery-apps' class='gallery-tile' data-title='Custom Apps' data-slideshow='["images/gallery/overlay_1.webp"]'>
+          <a href='gallery-apps' class='gallery-tile' data-title='Custom Apps' data-slideshow='["images/gallery/overlay_1.webp", "images/gallery/cardgenerator.webp"]'>
             <img src='images/gallery/overlay_1.webp' alt='Custom Apps' loading='lazy' />
           </a>
         </div>
