@@ -19,7 +19,7 @@
           </a>
 
           <a href="gallery-apps" class="gallery-tile" data-title="Custom Apps"
-            data-slideshow='["images/gallery/overlay_1.webp"]'>
+            data-slideshow='["images/gallery/overlay_1.webp", "images/gallery/cardgenerator.webp"]'>
             <img src="images/gallery/overlay_1.webp" alt="Custom Apps" loading="lazy">
           </a>
         </div>
