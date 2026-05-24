@@ -50,6 +50,27 @@ slug: gallery-3dp
 
 ===
 
+<!-- Source: gallery/gallery-apps.md -->
+<!-- URL: /gallery-apps -->
+<!-- Title: apps gallery -->
+<!-- Wikilinks: [[gallery/gallery-apps]], [[gallery-apps]] -->
+
+---
+page:
+  description: |
+    Apps Gallery
+
+template:
+  name: /templates/gallery-apps
+
+slug: gallery-apps
+---
+
+# apps gallery
+
+
+===
+
 <!-- Source: gallery/gallery-frc.md -->
 <!-- URL: /gallery-frc -->
 <!-- Title: frc gallery -->
@@ -165,7 +186,7 @@ aka the driver biased golden rules
         - Simple architecture means it’s done faster which means it can be programmed earlier
     - The advent of April tags means a lot of actions that were once driver skill checks are now just programming automation skill checks
 
-## design phase specific wisdom
+## design wisdom (by phase)
 
 ### ideation
 

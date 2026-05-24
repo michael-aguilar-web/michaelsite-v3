@@ -41,6 +41,13 @@ fi
 # Stop any previous dev container
 docker rm -f "$NAME" >/dev/null 2>&1 || true
 
+# nix build leaves ./result -> /nix/store/...; that target is unreachable inside
+# the container and crashes Emanote's file watcher. Safe to remove for dev — rerun
+# `nix build` when you need a static export.
+if [ -L result ] && [[ "$(readlink result)" == /nix/store/* ]]; then
+  rm -f result
+fi
+
 # Run Emanote
 docker run --rm --name "$NAME" \
   -p "$PORT:$PORT" \
